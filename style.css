@@ -1,0 +1,5947 @@
+/*  Theme Name: Pro child Theme URI: https://theme.co/pro Author: Themeco
+Author URI: https://theme.co Template: pro Description: The Most Advanced Website
+Creator for WordPress. Version: 5.1.5 License: GNU General Public License v2.0 License
+URI: https://www.gnu.org/licenses/gpl-2.0.html Text Domain: pro-child  */
+
+@font-face {
+    font-family: "Zeitung Micro Pro";
+  src: url("fonts/ZeitungMicroPro.eot");
+  src: url("fonts/ZeitungMicroPro.eot") format("embedded-opentype"),
+    url("fonts/ZeitungMicroPro.woff2") format("woff2"),
+    url("fonts/ZeitungMicroPro.woff") format("woff"),
+    url("fonts/ZeitungMicroPro.ttf") format("truetype"),
+    url("fonts/ZeitungMicroPro.svg#ZeitungMicroPro") format("svg");
+}
+
+@font-face {
+  font-family: "ZeitungMicroProSemiBold";
+  src: url("fonts/ZeitungMicroProSemiBold.eot");
+  src: url("fonts/ZeitungMicroProSemiBold.eot") format("embedded-opentype"),
+    url("fonts/ZeitungMicroProSemiBold.woff2") format("woff2"),
+    url("fonts/ZeitungMicroProSemiBold.woff") format("woff"),
+    url("fonts/ZeitungMicroProSemiBold.ttf") format("truetype"),
+    url("fonts/ZeitungMicroProSemiBold.svg#ZeitungMicroProSemiBold")
+      format("svg");
+}
+@font-face {
+  font-family: "ZeitungMicroProBold";
+  src: url("fonts/ZeitungMicroProBold.eot");
+  src: url("fonts/ZeitungMicroProBold.eot") format("embedded-opentype"),
+    url("fonts/ZeitungMicroProBold.woff2") format("woff2"),
+    url("fonts/ZeitungMicroProBold.woff") format("woff"),
+    url("fonts/ZeitungMicroProBold.ttf") format("truetype"),
+    url("fonts/ZeitungMicroProBold.svg#ZeitungMicroProBold") format("svg");
+}
+@font-face {
+  font-family: "ZeitungMicroProExtraBold";
+  src: url("fonts/ZeitungMicroProExtraBold.eot");
+  src: url("fonts/ZeitungMicroProExtraBold.eot") format("embedded-opentype"),
+    url("fonts/ZeitungMicroProExtraBold.woff2") format("woff2"),
+    url("fonts/ZeitungMicroProExtraBold.woff") format("woff"),
+    url("fonts/ZeitungMicroProExtraBold.ttf") format("truetype"),
+    url("fonts/ZeitungMicroProExtraBold.svg#ZeitungMicroProExtraBold")
+      format("svg");
+}
+@font-face {
+  font-family: "ZeitungMicroProBoldItalic";
+  src: url("fonts/ZeitungMicroProBoldItalic.eot");
+  src: url("fonts/ZeitungMicroProBoldItalic.eot") format("embedded-opentype"),
+    url("fonts/ZeitungMicroProBoldItalic.woff2") format("woff2"),
+    url("fonts/ZeitungMicroProBoldItalic.woff") format("woff"),
+    url("fonts/ZeitungMicroProBoldItalic.ttf") format("truetype"),
+    url("fonts/ZeitungMicroProBoldItalic.svg#ZeitungMicroProBoldItalic")
+      format("svg");
+}
+@font-face {
+  font-family: "ZeitungMicroPro";
+  src: url("fonts/ZeitungMicroPro.eot");
+  src: url("fonts/ZeitungMicroPro.eot") format("embedded-opentype"),
+    url("fonts/ZeitungMicroPro.woff2") format("woff2"),
+    url("fonts/ZeitungMicroPro.woff") format("woff"),
+    url("fonts/ZeitungMicroPro.ttf") format("truetype"),
+    url("fonts/ZeitungMicroPro.svg#ZeitungMicroPro") format("svg");
+}
+@font-face {
+  font-family: "ProximaNovaSemibold";
+  src: url("fonts/ProximaNovaSemibold.eot");
+  src: url("fonts/ProximaNovaSemibold.eot") format("embedded-opentype"),
+    url("fonts/ProximaNovaSemibold.woff2") format("woff2"),
+    url("fonts/ProximaNovaSemibold.woff") format("woff"),
+    url("fonts/ProximaNovaSemibold.ttf") format("truetype"),
+    url("fonts/ProximaNovaSemibold.svg#ProximaNovaSemibold") format("svg");
+}
+@font-face {
+  font-family: "ProximaNovaExtrabold";
+  src: url("fonts/ProximaNovaExtrabold.eot");
+  src: url("fonts/ProximaNovaExtrabold.eot") format("embedded-opentype"),
+    url("fonts/ProximaNovaExtrabold.woff2") format("woff2"),
+    url("fonts/ProximaNovaExtrabold.woff") format("woff"),
+    url("fonts/ProximaNovaExtrabold.ttf") format("truetype"),
+    url("fonts/ProximaNovaExtrabold.svg#ProximaNovaExtrabold") format("svg");
+}
+@font-face {
+  font-family: "ProximaNovaLight";
+  src: url("fonts/ProximaNovaLight.eot");
+  src: url("fonts/ProximaNovaLight.eot") format("embedded-opentype"),
+    url("fonts/ProximaNovaLight.woff2") format("woff2"),
+    url("fonts/ProximaNovaLight.woff") format("woff"),
+    url("fonts/ProximaNovaLight.ttf") format("truetype"),
+    url("fonts/ProximaNovaLight.svg#ProximaNovaLight") format("svg");
+}
+@font-face {
+  font-family: "ProximaNovaBlack";
+  src: url("fonts/ProximaNovaBlack.eot");
+  src: url("fonts/ProximaNovaBlack.eot") format("embedded-opentype"),
+    url("fonts/ProximaNovaBlack.woff2") format("woff2"),
+    url("fonts/ProximaNovaBlack.woff") format("woff"),
+    url("fonts/ProximaNovaBlack.ttf") format("truetype"),
+    url("fonts/ProximaNovaBlack.svg#ProximaNovaBlack") format("svg");
+}
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("fonts/ProximaNovaRegular.eot");
+  src: url("fonts/ProximaNovaRegular.eot") format("embedded-opentype"),
+    url("fonts/ProximaNovaRegular.woff2") format("woff2"),
+    url("fonts/ProximaNovaRegular.woff") format("woff"),
+    url("fonts/ProximaNovaRegular.ttf") format("truetype"),
+    url("fonts/ProximaNovaRegular.svg#ProximaNovaRegular") format("svg");
+}
+
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("fonts/ProximaNovaBold.eot");
+  src: url("fonts/ProximaNovaBold.eot") format("embedded-opentype"),
+    url("fonts/ProximaNovaBold.woff2") format("woff2"),
+    url("fonts/ProximaNovaBold.woff") format("woff"),
+    url("fonts/ProximaNovaBold.ttf") format("truetype"),
+    url("fonts/ProximaNovaBold.svg#ProximaNovaBold") format("svg");
+}
+.title1 {
+  font-family: "ProximaNovaBlack";
+  color: #fff;
+  font-size: 105.09px;
+  font-style: normal;
+  /*font-weight: 900;*/
+  line-height: 85.869%; /* 90.24px */
+  letter-spacing: -2.102px;
+}
+.main-heading {
+  margin-top: -300px !important;
+}
+ul,
+li {
+  list-style-type: none;
+}
+ul {
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+}
+.heading3 {
+  color: #fff;
+  font-family: "ProximaNovaExtrabold" !important;
+  font-size: 95px;
+/*  font-weight: bold;*/
+  line-height: 70px;
+  margin: 5px 0px 25px;
+  letter-spacing: 0.5px;
+}
+.counter-paragraph {
+  color: #fff;
+  text-align: center;
+  font-family: ZeitungMicroProBold;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.heading2 {
+  color: #fff;
+  font-family: ProximaNovaExtrabold;
+  font-size: 65px;
+  font-style: normal;
+ /* font-weight: 800;*/
+  line-height: 73px; /* 107.692% */
+  margin-top: 0px !important;
+}
+a {
+  text-decoration: none !important;
+}
+body {
+  margin: 0px;
+  font-family: "Proxima Nova Th";
+  color:#000 !important;
+}
+
+.contPostCount{
+   margin-bottom: 25px;
+    font-family: ZeitungMicroPro;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.accordion-header.filter_accordion {
+    text-transform: capitalize;
+}
+.com_head {
+    text-transform: capitalize;
+}
+.prev-arrow:before {
+    background-image: url(/wp-content/themes/pro-child/img/fas-left-arrow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    display: inline-block;
+    top: 8px;
+    content: '' !important;
+    right: 0;
+}
+
+.next-arrow:before {
+    background-image: url(/wp-content/themes/pro-child/img/fas-left-arrow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    display: inline-block;
+    top: 4px;
+    content: '' !important;
+    right: 0px;
+    transform: rotate(180deg);
+}
+
+.next-arrow, .prev-arrow {
+    text-indent: -99999px;
+}
+
+.contact-btn a{
+  border-radius: 10px;
+  background: #79b44b;
+  padding: 10px 48px 12px;
+  display: inline-block;
+  color: #fff !important;
+  font-family: ZeitungMicroProBold;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  position: relative;
+  border: 1px solid #79b44b;
+  transition: 0.3s;
+  z-index: 3;
+}
+.contact-btn a:hover {
+  color: #79b44b !important;
+  background-color: transparent;
+}
+
+
+.primary-btn {
+  border-radius: 10px;
+  background: #79b44b;
+  cursor: pointer;
+  padding: 10px 30px 12px;
+  display: inline-block;
+  color: #fff !important;
+  font-family: ZeitungMicroProBold;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  position: relative;
+  border: 1px solid #79b44b;
+  transition: 0.3s;
+  z-index: 3;
+}
+.primary-btn:hover {
+  color: #79b44b !important;
+  background-color: transparent;
+}
+.clean-g-div .paragraph {
+  color: #fff;
+} /*.joblist-sec li:not(:first-child) span{  }*/
+.paragraph {
+  color: #000;
+  font-family: ZeitungMicroPro;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body:has(.open) {
+    overflow: hidden;
+    max-height: 100vh;
+}
+.custom-container {
+  max-width: 1450px;
+  width: 100%;
+  margin: 0px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbar-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-list ul:not(.sub-menu) {
+  display: flex;
+  margin-bottom: 0px;
+}
+.navbar-list .menu-item a {
+  color: #fff;
+  font-family: "ProximaNovaExtrabold";
+  font-size: 19px;
+ /* font-weight: bold;*/
+  font-style: normal;
+  line-height: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+.menu-item a:hover {
+  color: #79b44b !important;
+}
+#menu-item-217969 > a:hover, #menu-item-217960 > a:hover, #menu-item-671994 .navigation-menu-item > a:hover {
+	color: #fff !important;
+	cursor:default;
+}
+
+li#menu-item-217969 {
+	color:red !important;
+}
+.main-navbar-submienu {
+  padding-left: 75px;
+}
+.mainHeader {
+  background: #233f88;
+  padding: 25px 0px;
+  z-index: 1030;
+  position: relative;
+}
+.menu-item {
+  list-style-type: none;
+  padding: 0px 22px;
+  text-align: left;
+}
+.main-navbar {
+  display: flex;
+  align-items: center;
+}
+.logohe {
+  width: 347px;
+  padding: 0 !important;
+}
+
+.logohe img {
+  width: 100%;
+}
+.main-navbar-icon img {
+  width: 50px;
+}
+.toggle-menu{
+	display:inline-block;
+	cursor:pointer;
+}
+#menu {
+  background: rgba(35, 63, 136, 0.95);
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  transition: all 0.7s ease-in-out;
+  visibility: hidden;
+  width: 100%;
+  z-index: 1030;
+}
+.single-news_events .category-news a {
+    color: #79b44b;
+}
+.single-news_events .entry-wrap{
+	box-shadow:none;
+}
+.single-news_events .entry-wrap .entry-header{
+	margin-bottom:20px;
+}
+.single-news_events .entry-wrap .entry-header .entry-title{
+	font-weight:600;
+}
+.single-news_events .entry-wrap .entry-header p.p-meta {
+	display: none;
+    margin-top: 20px;
+}
+.single-news_events .entry-wrap .entry-header p.p-meta .x-icon-bookmark{
+	margin-right:8px;
+}
+.cross-icon {
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+  display: inline-block;
+  z-index: 9;
+}
+.txt-blue {
+  color: #233f88;
+  font-family: ZeitungMicroProExtraBold;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.cross-icon a {
+  display: inline-block;
+}
+.cross-icon img {
+  width: 25px;
+}
+#menu.open {
+  opacity: 1;
+  visibility: visible;
+}
+.main-nav1 {
+  height: 100%;
+}
+.navigation-sec {
+  display: flex;
+  width: 1009px;
+  margin: 0px auto;
+  padding: 150px 0px 120px;
+  justify-content: space-between;
+  align-items: start;
+  height: 100%;
+}
+.nv-sec .menu-item a {
+  color: #fff;
+  font-family: ZeitungMicroProBold;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* .nv-sec .menu-item a:hover {
+  color: #70a6ff;
+} */
+
+.nv-sec .menu-item:not(:last-child) {
+  padding-bottom: 30px;
+}
+.nv-sec .navItem-inner .menu-item {
+    padding-bottom: 0px;
+    padding-left: 0;
+}
+.nv-sec .menu-item .sub-menu a {
+  color: #fff;
+  font-family: ZeitungMicroPro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 9px 0px 0px;
+  display: inline-block;
+}
+.group-btn {
+  margin-top: 50px;
+}
+.home-banner {
+  height: calc(100vh - 6.5rem);
+  display: flex !important;
+  align-items: center !important;
+}
+.admin-bar .home-banner {
+  height: calc(100vh - 8rem);
+}
+.heading-sec {
+  margin-top: -13rem;
+}
+.icon-head h2, .icon-head h2 a {
+  color: #233f88;
+  font-family: "ProximaNovaExtrabold";
+  font-size: 39px;
+  font-style: normal;
+ /* font-weight: 800;*/
+  line-height: 43px;
+  margin: 0;
+}
+
+.icon-head h2 a:hover{
+    color: #233f88;
+}
+.joblist-sec span img {
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+  width: 60px;
+}
+
+
+
+.jlms-1 .joblist-sec li:first-child span img{
+  width: 60px;
+}
+ .jlms-1 .joblist-sec span img{
+      width: 72px;
+}
+
+
+.joblist-sec span:hover img {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+}
+.icon-head p {
+  color: #000;
+  font-family: ZeitungMicroPro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+.joblist-sec li {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 50px;
+  column-gap: 30px;
+}
+.joblist-sec li span {
+  background-color: #79b44b;
+  border-radius: 50%;
+  padding: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: all 450ms ease-in-out;
+  -moz-transition: all 450ms ease-in-out;
+  -o-transition: all 450ms ease-in-out;
+  -ms-transition: all 450ms ease-in-out;
+  transition: all 450ms ease-in-out;
+  margin-top: -14px;
+}
+
+.joblist-sec li span:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.ennrgy-office-logo {
+  position: absolute;
+  right: 0;
+  bottom: 8rem;
+}
+.blue-section .blue-sec-first-row {
+  z-index: -1 !important;
+}
+.blue-sec-sec-row {
+  z-index: 99 !important;
+}
+.service-sec {
+  z-index: 999 !important;
+}
+.circle-img-div {
+  z-index: 2;
+}
+.career-sec-row {
+  z-index: 9 !important;
+}
+.career-sec::before {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url(/wp-content/uploads/2023/12/carrier-img2.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  z-index: 10;
+  background-size: contain;
+  margin-top: -386px;
+}
+.career-sec::after {
+  position: absolute;
+  content: "" !important;
+  width: 900px !important;
+  height: 900px;
+  right: 0;
+  bottom: 0;
+  background-image: url(/wp-content/uploads/2024/01/textimg.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-size: contain;
+  margin-bottom: -450px;
+}
+.counter-sec,
+.upcoming-sec {
+  position: relative;
+}
+.recent-job-curve-img {
+  z-index: -1 !important;
+}
+.slider-row {
+  z-index: 6 !important;
+}
+.custom-logo h4 {
+  color: #fff;
+  font-family: Proxima Nova;
+  font-size: 72.396px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 85.869%; /* 62.165px */
+  letter-spacing: -1.448px;
+}
+.txt-white {
+  color: #fff;
+  font-family: ZeitungMicroProSemiBold;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.skill-slider {
+  z-index: 9 !important;
+}
+.skill-slider .x-slide {
+  z-index: 9 !important;
+}
+.blue-sec-third-row {
+  z-index: 0 !important;
+}
+.right-container {
+  padding-right: calc((100vw - 1480px) / 2) !important;
+}
+.left-container {
+  padding-left: calc((100vw - 1480px) / 2) !important;
+}
+.blue-section {
+  position: relative;
+}
+.wppb-error, .gform_validation_errors{
+	display:none !important;
+}
+
+.blue-section::before {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: 100%;
+  background-size: contain;
+  top: 0;
+  right: 0;
+  background-image: url(/wp-content/uploads/2023/12/Mask-group-1.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  z-index: 1;
+  margin-top: -350px;
+}
+.heading5 {
+  color: #fff;
+  font-family: "ZeitungMicroProExtraBold";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  letter-spacing: 0.2px;
+}
+.footer-item, .footer-item .x-anchor-text-primary {
+  color: #fff;
+  font-family: ZeitungMicroProSemiBold;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 3px 0px;
+  position: relative;
+}
+.footer-list1 {
+  margin-left: 0px;
+}
+.footer-list1 li:first-child {
+  padding-top: 5px;
+}
+.custom-txt h4 {
+  font-family: Proxima Nova;
+  font-size: 72.396px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 85.869%; /* 62.165px */
+  letter-spacing: -1.448px;
+}
+.social-list {
+  margin-top: 30px !important;
+  margin-left: 0px;
+  display: flex;
+  gap: 20px;
+}
+.social-list li {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.social-list li a {
+  display: inline-block;
+}
+.job-item {
+  display: flex;
+}
+.job-listing-list {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  padding: 40px 50px;
+  margin-bottom: 40px;
+  position: relative;
+  transition: .3s;
+}
+
+.job-listing-list:hover{
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      border-color: #233F88;
+}
+
+.job-listing-list:hover .job-title a, .job-listing-list:hover .job-compnay-name a{
+  color:#233F88;
+}
+
+/*.job-listing-list:hover:before {
+    background-size: 200% 2px, 2px 400%, 2px 400%, 55% 2px, 55% 2px;
+    background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+    transform: scaleX(1) rotate(0deg);
+    transition-delay: 0s, 0.3s, 0.6s;
+}*/
+
+/*.job-listing-list:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    top: calc(2px / -1);
+    left: calc(2px / -1);
+    background: linear-gradient(to right, #233F88 0%, #233F88 100%), linear-gradient(to top, #233F88 50%, transparent 50%), linear-gradient(to top, #233F88 50%, transparent 50%), linear-gradient(to right, #233F88 0%, #233F88 100%), linear-gradient(to left, #233F88 0%, #233F88 100%);
+    background-size: 100% 2px, 2px 200%, 2px 200%, 0% 2px, 0% 2px;
+    background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+    background-repeat: no-repeat, no-repeat;
+    transition: transform 0.3s ease-in-out, background-position 0.3s ease-in-out, background-size 0.3s ease-in-out;
+    transform: scaleX(0) rotate(0deg);
+    transition-delay: 0.6s, 0.3s, 0s;
+  }*/
+
+.job-item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: all 0.4s ease 0s;
+}
+.job-listing-company-logo {
+  position: relative;
+  width: 100%;
+}
+.job-listings {
+  margin-left: 0px;
+}
+.job-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.morejobs a {
+  color: #000;
+  font-family: ZeitungMicroProBold;
+  font-size: 25px;
+  font-style: normal;
+ /* font-weight: 700;*/
+  line-height: normal;
+  display: inline-block;
+}
+.morejobs a img {
+  width: 23px;
+  margin-left: 10px;
+}
+.morejobs {
+  text-align: right;
+}
+.job-title {
+  color: #000;
+  font-family: ZeitungMicroProBold;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: capitalize;
+  margin: 0px 0px 13px;
+}
+
+.upevent-list .job-title{
+  margin-bottom: 8px;
+}
+
+.job-compnay-name {
+  color: #000;
+  font-family: ZeitungMicroProBold;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+ margin-bottom: 10px;
+}
+.job-info {
+  margin-left: 0px;
+  display: flex;
+  margin-top: 10px;
+}
+.job-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: end;
+  flex: 1 1 20%;
+}
+.job-icon p{
+font-size: 15px;
+font-style: italic;
+font-weight: 400;
+margin-bottom: 0;
+}
+
+.circle,
+.jobicon-share, .jobicon-share2 {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;	
+}
+.jobicon-share1{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobicon-share img, .jobicon-share1 img, .jobicon-share2 img {
+  width: 18px;
+}
+
+.post-title {
+  color: #000;
+  text-align: right;
+  font-family: ZeitungMicroPro;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: -5px;
+}
+.job-info li a {
+  color: #000;
+  font-family: ZeitungMicroPro;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  position: relative;
+  display: inline-block;
+}
+.job-info li:not(:last-child) a {
+  padding-right: 15px;
+}
+.job-info li:not(:first-child) a {
+  padding-left: 15px;
+}
+.upevent-list {
+    display: flex;
+    position: relative;
+    column-gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.upevent-list li h5 {
+    color: #000;
+    font-family: ZeitungMicroProSemiBold;
+    font-size: 21px;
+    font-style: normal;
+    margin: 0;
+    line-height: 19px;
+}
+
+.mcbs-sec{
+  z-index: 0 !important;
+}
+
+.upevent-list li:first-child{
+  flex: 1 1 100%;
+}
+.upevent-list li {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.job-info .green-line {
+  display: none;
+}
+/* .job-info li:not(:last-child) a::after {
+  content: "";
+  background-color: #79b44b;
+  position: absolute;
+  right: 0;
+  top: 2px;
+  width: 3px;
+  height: 100%;
+} */
+
+.job-info li a::after {
+  content: "";
+  background-color: #79b44b;
+  position: absolute;
+  right: 0;
+  top: 2px;
+  width: 3px;
+  height: 100%;
+}
+.job-info li:last-child a::after {
+  content: unset;
+}
+/* .job-info li:last-child a{
+  margin-left: 10px;
+} */
+.green-line {
+  color: #79b44b;
+  font-family: ZeitungMicroProBold;
+  font-style: normal;
+  font-weight: 700;
+  width: 2px;
+  height: 100%;
+  display: inline-block;
+}
+.event-list:not(:first-child) {
+  border-top: 2px solid #bfbfbf;
+  padding-top: 35px;
+}
+.event-list p {
+  margin-top: 7px;
+  margin-bottom: 25px;
+  line-height: 40px;
+  font-size: 20px;
+  line-height: 31px;
+}
+.search-filter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-radius: 20px 20px 0px 20px;
+  background: rgba(255, 255, 255, 0.75);
+  align-items: center;
+  padding: 30px 55px;
+  gap: 14px;
+  margin-left: 0px;
+}
+.search-filter li:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.search-filter li:last-child input{
+	padding-bottom: 14px;
+}
+.curd-btn a {
+  display: inline-block;
+  color: #000 !important;
+  font-family: ZeitungMicroPro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  cursor: pointer;
+}
+.job-search {
+  position: relative;
+}
+.search-filter .job-search .form-control {
+  padding-left: 40px !important;
+}
+.jobs-select .form-select {
+  display: block;
+  width: 100%;
+  padding: 0.8rem 0.5rem; /** for the dropdown indicator */
+  appearance: none; 
+/*  background-image: url("/wp-content/uploads/2024/01/select-arrow-icon.png");*/
+    background-image: url("/wp-content/uploads/2024/03/select-arrow.png");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 0.7em;
+}
+.job-search::before {
+  position: absolute;
+  content: "" !important;
+  width: 20px;
+  height: 20px;
+  top: 17px;
+  left: 13px;
+  bottom: 0;
+  background-image: url(/wp-content/uploads/2024/01/jobs-location-icon.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: contain;
+}
+.search-filter .primary-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 25px;
+  color: #fff !important;
+  border: 1px solid #79b44b !important;
+  box-shadow: unset;
+  text-shadow: unset;
+  background-color: #79b44b;
+  border-radius: 10px !important;
+  font-size: 22px !important;
+  min-width: 200px;
+  margin-bottom: 0px;
+}
+.search-filter .primary-btn:hover {
+  background-color: transparent !important;
+  color: #79b44b !important;
+  box-shadow: unset !important;
+  text-shadow: unset !important;
+  border: 1px solid #79b44b !important;
+  margin-bottom: 0px !important;
+}
+
+.search-filter .form-control {
+  border-radius: 10px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  height: 55px;
+  display: inline-block;
+  padding: 10px 10px 13px !important;
+  color: #857070;
+  font-family: ZeitungMicroPro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.filter-toggel img{
+  width:25px;
+  margin-left:8px;
+}
+
+.form-select{
+  border-radius: 10px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  height: 55px;
+  display: inline-block;
+  padding: 10px 10px 13px !important;
+  color: #827373;
+  font-family: ZeitungMicroPro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0;
+}
+
+.jobs-select select::placeholder,
+.jobs-select input::placeholder {
+  color: #857070;
+  font-weight: 400;
+}
+.search-filter li {
+  flex: 1;
+  width: 100%;
+}
+.jobs-select {
+  width: 100%;
+}
+.jobs-select select,
+.jobs-select input {
+  width: 100%;
+}
+.counter-sec::after {
+  position: absolute;
+  content: "";
+  width: 100% !important;
+  height: 100vh; /*
+top: 0; */
+  right: 0;
+  bottom: -2px;
+  background-image: url(/wp-content/uploads/2024/01/web_white_cut_top-2.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: contain;
+  margin-top: 1px;
+}
+.curve-txt-bottom {
+  position: absolute;
+  margin-top: -110px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: ZeitungMicroProBold !important;
+  font-size: 25px !important;
+  font-style: italic !important;
+  font-weight: 700 !important;
+  line-height: 40px !important;
+}
+.main-clean-blue-section::before {
+  position: absolute;
+  content: "" !important;
+  width: 700px !important;
+  height: 700px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/wp-content/uploads/2024/01/spring-img-right.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  z-index: 9999;
+  background-size: contain;
+  margin-top: -315px;
+}
+.main-clean-blue-section::after {
+  position: absolute;
+  content: "" !important;
+  width: 450px !important;
+  height: 700px;
+  left: 0;
+  bottom: -21px;
+  background-image: url(/wp-content/uploads/2024/01/spring-img-left.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: contain;
+}
+.joblist-sec ul {
+  padding-right: 160px;
+  margin-bottom: 0;
+}
+.clr-head {
+  color: #233f88 !important;
+}
+.txt-filter {
+  display: none;
+}
+.login-group-destop {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.login-txt {
+  padding-bottom: 11px;
+  border-bottom: 4px solid #79b44b;
+}
+.login-group-mobile {
+  display: none;
+}
+.sub-menu {
+  padding-left: 20px;
+}
+.mobile-contact-btn {
+  display: none;
+}
+.destop-contact-btn {
+  display: block;
+}
+.admin-bar .sticky-bar {
+  top: 32px;
+}
+.sticky-bar {
+  animation: fadeInDown 0.7s ease-in-out 0s 1 normal none running; /*   
+box-shadow: 0 3px 28px 1px #ffffff33;*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  left: 0;
+  transition: all 0.3s ease 0s;
+  background: #233f88;
+}
+.header {
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+.footer-item a {
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+.footer-item a:hover {
+  color: #fff;
+}
+.footer-item a:hover::after, .footer-item .x-anchor:hover .x-anchor-text-primary::after {
+  width: 100%;
+}
+.footer-item a::after, .footer-item .x-anchor-text-primary::after {
+  transition: 0.2s;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0px;
+  height: 2px;
+  background-color: #fff;
+}
+/*----------------------cleangreenenergy------------------*/
+.result-heading .heading2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 37px;
+}
+.heading1 {
+  color: #fff;
+  font-family: "ProximaNovaBlack";
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0px;
+} /*.cleanrenergy-sec, .future-sec{ height:
+100vh; display: flex !important; align-items: center; } */
+.paragraph1 {
+  color: #fff;
+  font-family: ZeitungMicroProBold;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0px;
+}
+.cleanenergy-main-company-logo ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 69px;
+}
+.clean-g-div .paragraph {
+  margin-bottom: 40px;
+}
+/*.job-list-main-sec .joblist-sec li {
+  opacity: 0;
+  transform: translateX(200px);
+  transition: opacity 0.3s, transform 0.3s;
+}*/
+/*.job-list-main-sec .joblist-sec li.visible {
+  opacity: 1;
+  transform: translateX(0);
+}*/
+.result-heading .heading2 span:first-child {
+  position: relative;
+  top: 12px;
+  line-height: 14px;
+  left: -10px;
+}
+.slider-txt h4 {
+  font-family: "ProximaNovaExtrabold" !important;
+  font-size: 40px;
+}
+.result-main-sec::after {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: calc(100vh - 380px);
+  left: 0;
+  bottom: -165px;
+  background-image: url(/wp-content/uploads/2024/01/cleanpage-result-sec.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: contain;
+}
+.clean-energy-careers::before {
+  position: absolute;
+  content: "" !important;
+  width: 15% !important;
+  height: 900px;
+  right: 0px;
+  top: -36%;
+  background-image: url(/wp-content/uploads/2024/01/clean-atten.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  z-index: 3;
+  background-size: contain;
+  margin-top: 0;
+}
+.attention-clean-sec::before {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: calc(100vh + 112px);
+  left: 0px;
+  top: -10%;
+  background-image: url(/wp-content/uploads/2024/01/clean-atten-top.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: contain;
+  margin-top: 0px;
+}
+.maine-path-energy::before {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important; /* height: calc(100% +
+550px); height: -webkit-calc(100% + 550px);*/
+  height: 1550px;
+  right: 0px;
+  bottom: -46%;
+  background-image: url(/wp-content/uploads/2024/01/clean-atten.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: contain;
+  margin-top: 0;
+}
+.clean-row-sectors-colum {
+  margin-top: 0px !important;
+}
+.cleanenergy-second-sec::before {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: 100%;
+  left: 0px;
+  top: -66%;
+  background-image: url(/wp-content/uploads/2024/01/clean-energy-sec-top.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: contain;
+  margin-top: 0px;
+}
+.building-sec ul {
+  margin-left: 0px !important;
+}
+.icon-head h4 {
+  color: #000;
+  font-family: ZeitungMicroProBold;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0;
+  margin-top: 14px;
+}
+.building-sec .joblist-sec li {
+  column-gap: 50px;
+  padding-bottom: 25px !important;
+  padding-top: 25px !important;
+}
+.building-sec .icon-head p {
+  margin-top: 0;
+}
+.emb-sec-row {
+  z-index: -1 !important;
+}
+.ee-second-sec::before {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: 345px;
+  right: 0px;
+  top: 0;
+  background-image: url(/wp-content/themes/pro-child/img/ee-spring-right.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: contain;
+}
+.maine-is-ready::after {
+  position: absolute;
+  content: "" !important;
+  width: 100% ;
+  /*  height: calc(100vh - 70px);*/
+  height: 67vh;
+  left: 0px;
+  bottom: 0;
+  background-image: url(/wp-content/themes/pro-child/img/main-ready-left.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: contain;
+  margin-bottom: 100px;
+}
+.plenty-of-work-sec::before {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: calc(100vh + 90px);
+  right: 0px;
+  top: -35%;
+  background-image: url(/wp-content/themes/pro-child/img/plenty-of-work-to-do.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: contain;
+}
+.efficiency-banner-sec::after {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: calc(100vh + 900px);
+  left: 0px;
+  top: 0;
+  background-image: url(/wp-content/themes/pro-child/img/efficiency-banner-sec.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  z-index: 9;
+  background-size: contain;
+  margin-top: -278px;
+}
+.result-heading.dollor-sec .heading2 span:first-child {
+  position: relative;
+  top: 0px;
+  line-height: 14px;
+  left: -5px;
+}
+.ee-number-sec::before {
+  position: absolute;
+  content: "" !important;
+  width: 13% !important;
+  height: calc(100vh - 80px);
+  right: 0px;
+  top: -18%;
+  background-image: url(/wp-content/themes/pro-child/img/ee-number-right-spring.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: contain;
+}
+.ee-workforce-sec::after {
+  position: absolute;
+  content: "" !important;
+  width: 45% !important;
+  height: 615px;
+  right: 0px;
+  bottom: -212px;
+  background-image: url(/wp-content/themes/pro-child/img/ee-workspace-right-bottom1.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: contain;
+}
+.paragraph a {
+  text-decoration: underline !important;
+  color: #79b44b;
+}
+.txt-anchor-link .paragraph a {
+  color: #233f88;
+}
+.paragraph a:hover {
+  color: #79b44b;
+}
+.skill-slider .x-slide img,
+.skill-slider .x-slide .x-image {
+  width: 100% !important;
+}
+.mobile-header {
+  display: none;
+}
+
+.slider-row {
+  position: relative;
+  z-index: 99 !important;
+}
+.inner-pages-heaidng-div {
+  transform: translateY(-50%);
+}
+.cleanenergy-main-company-logo ul li {
+  flex: 0 0 344px;
+  max-width: 343px;
+}
+.cleanebnergy-logo img {
+  width: 100%;
+}
+.cleanenergy-second-sec-row {
+  z-index: 2 !important;
+}
+.cleanenergy-second-sec-row .cleanenergy-second-div-txt {
+  max-width: 83% !important;
+}
+.building-sec .icon-head {
+  margin-left: 0px;
+  width: 100%;
+}
+.megawatt-sec {
+  display: flex;
+  justify-content: space-evenly;
+}
+.upevent-list li:last-child .green-line {
+  display: none;
+}
+.mg-inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.news-event-page::after {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: 100vh;
+  right: 0px;
+  top: 0;
+  background-image: url(/wp-content/themes/pro-child/img/ne-right-vector.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: contain;
+  margin-top: -170px;
+}
+.mht_event {
+  color: #ffffff !important;
+  margin-top: 0px;
+  padding: 10px 40px 12px;
+  cursor: pointer;
+}
+.title4 {
+  color: #233f88;
+  font-family: ProximaNovaExtrabold;
+  font-size: 40px;
+  font-style: normal;
+  /*font-weight: 800;*/
+  line-height: 45px;
+  min-height: 54px;
+  margin-top: 0;
+}
+.card_content {
+  padding: 35px;
+  background-color: #fff;
+}
+.custom-arrow1 {
+  position: absolute;
+  top: 50%;
+  display: inline-flex;
+  background-color: #233f88;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+}
+.custom-arrow1.left-custom {
+  left: -50px;
+}
+.custom-arrow1 img {
+  width: 25px;
+}
+.custom-arrow1.right-custom {
+  right: -50px;
+}
+/*.at-sec::after {
+content: "" !important;
+position: absolute; 
+width: 100% !important;
+height: 100%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+z-index: 1;
+background: linear-gradient(
+90deg,
+rgba(0, 0, 0, 0.3) 0%,
+rgba(0, 0, 0, 0) 100%
+);
+}
+*/
+.overlay-sec::after {
+  content: "" !important;
+  position: absolute;
+  width: 100% !important;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.overlay-sec1::after {
+  content: "" !important;
+  position: absolute;
+  width: 100% !important;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+/*.at-sec-row .x-row-inner {
+z-index: 2;
+}*/
+.newsevent-sec .slick-slide {
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.card_img img {
+  width: 100%;
+}
+.subscribe-sec .gform_title {
+  display: none;
+}
+body .subscribe-sec .gform_wrapper .gfield_label {
+  border-bottom: 0px !important;
+  color: #000 !important;
+  font-family: ZeitungMicroProBold;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  padding-bottom: 18px;
+  display: inline-block;
+}
+body .subscribe-sec .gform_wrapper input[type="submit"] {
+  box-shadow: unset;
+  border: 1px solid #79b44b;
+  background-color: #79b44b;
+  margin-bottom: 0px;
+  padding: 13px 55px 18px;
+  color: #fff;
+  text-align: center;
+  font-family: "ZeitungMicroProBold";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-shadow: unset;
+  line-height: normal;
+  line-height: 20px;
+}
+body .subscribe-sec .gform_wrapper .gform_footer {
+  margin-top: 30px !important;
+}
+body .subscribe-sec .gform_wrapper.gravity-theme .gform_fields {
+  grid-row-gap: 65px;
+}
+body .subscribe-sec .gform-grid-col .gform-field-label {
+  color: #bfbfbf;
+  font-family: "ZeitungMicroPro";
+  font-size: 25px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px !important;
+}
+body .subscribe-sec .gform_wrapper input[type="submit"] {
+  box-shadow: unset;
+  border: 1px solid #79b44b;
+  background-color: #79b44b;
+  margin-bottom: 0px;
+  padding: 13px 55px 18px;
+  color: #fff;
+  text-align: center;
+  font-family: "ZeitungMicroProBold";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-shadow: unset;
+  line-height: normal;
+  line-height: 20px;
+}
+body .subscribe-sec .gform_wrapper .gform-body .gfield_select {
+  border-radius: 10px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  height: 58px;
+  color: #3d424c;
+  font-family: "ZeitungMicroPro";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0px 20px 4px;
+  line-height: 30px;
+}
+body .subscribe-sec .gform_wrapper .gform-body input {
+  border-radius: 7px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  height: 58px;
+  color: #3d424c;
+  font-family: "ZeitungMicroPro";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+body .subscribe-sec .gform_wrapper input[type="submit"]:hover {
+  background-color: transparent;
+  color: #79b44b;
+}
+.newsevent-sec::after {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: 100vh;
+  left: 0px;
+  bottom: 0;
+  background-image: url(/wp-content/themes/pro-child/img/subscribe-sec.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-size: contain;
+  margin-bottom: -400px;
+}
+.newsevent-row {
+  z-index: 3 !important;
+}
+.newsevent-sec-row {
+  z-index: 0 !important;
+}
+.gform_heading .gform_required_legend {
+  display: none !important;
+}
+body .sgpb-main-html-content-wrapper .event-popup .gform-field-label, #gform_wrapper_4 .gform-field-label {
+  color: #000 !important;
+  font-family: "ZeitungMicroProBold";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  border-bottom: 0px !important;
+}
+body
+  .sgpb-main-html-content-wrapper
+  .event-popup
+  .gform_wrapper.gravity-theme
+  .gform_validation_errors {
+  background: transparent;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: unset;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+body .sgpb-main-html-content-wrapper .event-popup .gfield {
+  position: relative;
+}
+body
+  .sgpb-main-html-content-wrapper
+  .event-popup
+  .gform_wrapper
+  .gfield_description {
+  /* position: absolute; */
+  background-color: transparent;
+  border: unset;
+  padding-left: 0;
+  padding-top: 0 !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  font-size: 12px;
+  line-height: 14px; /* bottom: 0; */
+  margin-bottom: -9px;
+  padding-bottom: 0px !important;
+}
+.sgpb-popup-dialog-main-div-theme-wrapper-3 {
+  transform: translateX(-50%);
+  left: 50% !important;
+}
+body .sgpb-main-html-content-wrapper .event-popup .gfield_time_ampm select {
+  border-radius: 10px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  height: 62px;
+  color: #3d424c;
+  font-family: "ZeitungMicroPro";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  line-height: 30px;
+}
+body
+  .sgpb-main-html-content-wrapper
+  .event-popup
+  .gform_wrapper.gravity-theme
+  .ginput_container_time {
+  max-width: 100%;
+  min-width: 30.33%;
+  margin-left: 0px;
+}
+body
+  .sgpb-main-html-content-wrapper
+  .event-popup
+  .gform_wrapper.gravity-theme
+  .ginput_complex {
+  justify-content: space-between;
+  flex-flow: nowrap;
+}
+body
+  .sgpb-main-html-content-wrapper
+  .event-popup
+  .gform_wrapper.gravity-theme
+  .gfield
+  textarea.small {
+  height: 116px;
+  margin-top: 5px;
+}
+body .sgpb-main-html-content-wrapper .event-popup input[type="submit"] {
+  box-shadow: unset;
+  border: 1px solid #79b44b;
+  background-color: #79b44b;
+  margin-bottom: 0px;
+  padding: 17px 55px 18px;
+  color: #fff;
+  text-align: center;
+  font-family: "ZeitungMicroProBold";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-shadow: unset;
+  line-height: normal;
+  line-height: 20px;
+}
+body
+  .sgpb-main-html-content-wrapper
+  .event-popup
+  .gform_wrapper
+  .gform-body
+  .gfield_select {
+  border-radius: 10px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  height: 62px;
+  color: #3d424c;
+  font-family: "ZeitungMicroPro";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0px 20px 4px;
+  line-height: 30px;
+}
+body
+  .sgpb-main-html-content-wrapper
+  .event-popup
+  .gform_wrapper
+  .gform-body
+  input, #gform_wrapper_4 .gform-body
+  input {
+  border-radius: 7px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  height: 62px;
+  color: #3d424c;
+  font-family: "ZeitungMicroPro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 1px 1px 1px 20px;
+  width: 100%;
+}
+body
+  .sgpb-main-html-content-wrapper
+  .event-popup
+  .gform_wrapper
+  input[type="submit"]:hover {
+  background-color: transparent;
+  color: #79b44b;
+}
+body
+  .sgpb-main-html-content-wrapper
+  .event-popup
+  .gform_wrapper.gravity-theme
+  .gform_fields {
+  grid-row-gap: 30px;
+}
+
+.custom-popup-login .gfield_required {
+  display: none !important;
+}
+
+body .custom-popup-login .login-popup .um-field-label label,
+.custom-popup-login .gfield .gform-field-label,
+.energy-business-profile-creation li label {
+  color: #000 !important;
+  font-family: "ZeitungMicroProExtraBold";
+  font-size: 30px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal !important;
+  padding-bottom: 9px !important;
+  border-bottom: 0px !important;
+}
+body .custom-popup-login .um-form input.um-form-field,
+.custom-popup-login .gfield input,
+.energy-business-profile-creation li input {
+  border-radius: 10px !important;
+  border: 1.5px solid #bfbfbf !important;
+  background: #fff;
+  height: 56px !important;
+}
+
+.custom-popup-login .gfield input {
+  width: 100% !important;
+}
+.newsevent-sec::after {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: 100vh;
+  left: 0px;
+  bottom: 0;
+  background-image: url(/wp-content/themes/pro-child/img/subscribe-sec.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-size: contain;
+  margin-bottom: -400px;
+}
+.um-2291.um {
+  max-width: 450px;
+}
+.custom-popup-login .um-form .um-field-c {
+  display: none !important;
+}
+.custom-popup-login .um-form .um-center .um-button:hover {
+  background-color: transparent !important;
+  color: #79b44b !important;
+}
+
+.register-popup .popup-title {
+  margin-bottom: 0px;
+  display: block;
+}
+
+.custom-popup-login .um-form .um-col-alt {
+  display: inline-block;
+}
+.custom-popup-login .um-form .um-col-alt-b {
+  display: inline-block;
+  padding-left: 15px;
+  padding-top: 14px !important;
+}
+.custom-popup-login .um-2292.um {
+  margin-top: 10px;
+}
+.custom-popup-login .um-link-alt {
+  color: #000 !important;
+  font-family: "ZeitungMicroProBold";
+  font-size: 20px !important;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal;
+}
+
+.um-toggle-password {
+  display: none !important;
+}
+
+body .um-center .um-button {
+  min-width: 167px !important;
+  border: 1px solid #79b44b !important;
+  background-color: #79b44b !important;
+  padding: 10px 21px 17px !important;
+  font-size: 20px !important;
+}
+
+.admin-bar .curd-btn,
+.logged-in .curd-btn {
+  display: none;
+}
+
+.admin-bar .search-filter .primary-btn,
+.logged-in .search-filter .primary-btn {
+  width: 100%;
+}
+
+.popup-title {
+  font-family: ZeitungMicroProExtraBold;
+  color: #233f88;
+  text-align: center;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 70px;
+  margin-top: 0px;
+}
+
+.custom-popup-login .sgpb-main-html-content-wrapper p {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.account {
+  color: #000;
+  font-family: "ZeitungMicroPro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+
+.account a {
+  font-weight: 800;
+  font-family: "ZeitungMicroProBold";
+  color: #000;
+}
+
+.social-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 25px 0px 30px;
+  row-gap: 10px;
+}
+
+.custom-popup-login .gform_wrapper {
+  padding-top: 30px;
+}
+
+.sharelink {
+  display: inline-block;
+  border-radius: 10px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  color: #000 !important;
+  font-family: "ZeitungMicroPro";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  width: calc(100% - 150px);
+  padding: 17px 19px 18px 31px;
+  margin: 0px auto;
+  text-align: left;
+}
+
+.sharelink img {
+  width: 28px;
+  margin-right: 13px;
+  display: inline-block;
+  margin-top: -6px;
+}
+
+.login-popup {
+  border-top: 1.5px solid #bfbfbf;
+}
+
+.custom-popup-login .register-popup .sgpb-main-html-content-wrapper p {
+  margin-bottom: 25px;
+  margin-top: 0px;
+}
+
+.register-popup .login-popup {
+  padding-top: 25px;
+}
+
+#um_field_2291_user_email {
+  padding-top: 4px !important;
+}
+
+.custom-popup-login .um-field {
+  padding-top: 26px !important;
+}
+
+.custom-popup .popup-title {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.bd-title3 {
+  color: #000;
+  font-family: "ZeitungMicroProBold";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.bd-title4 {
+  color: #000;
+  font-family: "ZeitungMicroProBold";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  margin-top: 0;
+}
+
+.secondray-btn {
+  border-radius: 10px;
+  background: #233f88;
+  padding: 8px 45px 12px;
+  color: #fff !important;
+  font-family: "ZeitungMicroProBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #233f88;
+  margin-top: 0px;
+}
+
+.secondray-btn:hover {
+  background-color: transparent;
+  color: #233f88 !important;
+}
+
+.pi-list span {
+  color: #000;
+  font-family: "ZeitungMicroPro";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.pi-group-btn {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+	align-items: center;
+}
+
+
+.pi-job-info li span:not(:last-child)::after,
+.pi-list li span:not(:last-child)::after {
+  content: "|";
+  display: inline-block;
+  position: relative;
+}
+
+/* Additional styles for .pi-job-info */
+.pi-job-info li span:not(:last-child)::after {
+  left: 14px;
+}
+
+/* Additional styles for .pi-list */
+.pi-list li span:not(:last-child)::after {
+  left: 15px;
+  color: #79b44b; /* Adding color for .pi-list */
+}
+.pi-list li {
+  display: inline-flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.pi-list {
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.article {
+  padding-top: 15px;
+}
+
+.moreless-button {
+  color: #000;
+  font-family: "ZeitungMicroProbold";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-block;
+  position: relative;
+}
+
+.moreless-button::before {
+  content: "";
+  background-image: url(/wp-content/themes/pro-child/img/downarrow1.svg);
+  position: absolute;
+  right: -33px;
+  top: 15px;
+  bottom: 0;
+  width: 21px;
+  height: 15px;
+  background-repeat: no-repeat;
+}
+
+.moreless-button.active::before {
+  transform: rotate(180deg);
+}
+
+.static p {
+  margin-bottom: 5px;
+}
+
+.profile-information {
+  padding-bottom: 30px;
+}
+
+.enegry-space-left {
+  padding-left: 50px;
+}
+
+.profile-photo {
+  width: 100%;
+}
+.pendingContent{
+	display: flex;
+    align-items: center;
+    margin: 25px 0;
+    gap: 10px;
+}
+.pendingContent i{
+	color:red;
+}
+.pendingContent h6{
+	margin:0;
+	font-weight:600;
+	    font-size: 17px;
+    text-transform: unset;
+}
+.pi:not(:first-child) {
+  padding: 30px 0px;
+}
+
+.pi-job-info li {
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.location-icon {
+  width: 20px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.profile-card-deatils .bd-title4 {
+  margin-bottom: 0px;
+  margin-top: 22px;
+  line-height: 47px;
+}
+.profile-card-sec .bd-title4{
+margin-top: 0;
+}
+.pc-list li {
+  padding: 8px 0px 3px;
+}
+
+.green-btn {
+  border-radius: 10px;
+  background: #79b44b;
+  padding: 8px 45px 12px;
+  color: #fff;
+  font-family: "ZeitungMicroProBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #79b44b;
+  z-index: 2;
+  position: relative;
+  transition: 0.3s;
+}
+
+.green-btn:hover {
+  color: #79b44b !important;
+  background-color: transparent;
+}
+
+.space-sec {
+  position: relative;
+}
+
+.space-sec::before {
+  position: absolute;
+  content: "" !important;
+  width: 20% !important;
+  height: calc(100vh - 250px);
+  right: 0px;
+  top: 0;
+  background-image: url(/wp-content/themes/pro-child/img/bd-right-vector.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: contain;
+  margin-top: 0;
+}
+
+.space-sec::after {
+  position: absolute;
+  content: "" !important;
+  width: 100% !important;
+  height: 100vh;
+  left: 0px;
+  bottom: 0;
+  background-image: url(/wp-content/themes/pro-child/img/bd-left-vector.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: contain;
+  margin-bottom: -294px;
+}
+
+.space-sec {
+  padding: 100px 0px;
+}
+
+.pc-list li:last-child {
+  font-style: italic;
+}
+.pc-list li:first-child {
+  display: none;
+}
+
+body
+  .sgpb-main-html-content-wrapper
+  .event-popup
+  .gform_wrapper
+  .gform-body
+  .gfield_select {
+  display: block;
+  width: 100%;
+  appearance: none;
+  background-image: url("/wp-content/uploads/2024/01/select-arrow-icon.png");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 0.7em;
+}
+
+.blu-trans-btn {
+  border-radius: 10px;
+  border: 1px solid #233f88;
+  background: #fff;
+  color: #233f88;
+  font-family: "ZeitungMicroProBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 8px 45px 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.bg-img-cir {
+	height: auto;
+background-color: #233f88;
+    border-radius: 10px;
+    padding: 7px 35px 10px;
+    color: #fff;
+    font-family: "ZeitungMicroProBold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+	width: 160px;
+}
+
+/*.apply-div li a {
+   width: 253px;
+}*/
+
+.label1 {
+  width: 350px;
+  display: inline-block;
+}
+.profile-information1.pi {
+    border-bottom: 1px solid #BFBFBF;
+    padding: 20px 0;
+    margin-bottom: 15px;
+}
+#jobList1 li.paragraph span:last-child {
+    font-style: italic;
+}
+ul#jobList1 {
+    border-bottom: 1px solid #bfbfbf;
+    margin-bottom: 0;
+}
+.profile-information3.pi {
+    padding-top: 0;
+    margin-top: 15px;
+}
+ul.pc-list .paragraph {
+    margin-bottom: 10px;
+}
+.job-posting-article .profile-information1 ul li {
+  display: flex;
+}
+.job-posting-article .profile-information1 ul li .paragraph {
+  display: inline-block;
+  width: 100%;
+}
+
+.jb-div-in2 a {
+  padding: 6px 41px 10px;
+}
+
+.jb-div-in2 a:hover img {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(35%) saturate(2676%)
+    hue-rotate(204deg) brightness(96%) contrast(95%);
+}
+
+.jb-div-in2 img {
+      width: 16px;
+    position: relative;
+    left: -10px;
+    bottom: 0px;
+}
+
+.bold {
+  font-family: ZeitungMicroProBold;
+}
+.jb-div-in2 {
+  margin-top: 25px !important;
+}
+
+.job-posting-page .job-title-inner {
+  margin-top: 8px;
+}
+
+.job-list-tag li {
+  padding: 5px 0px;
+}
+
+.job-list-tag li a {
+  text-decoration: underline !important;
+  width: 250px;
+  display: inline-block;
+}
+
+/*.job-posting-page{
+padding: 100px 0px;
+}*/
+
+.job-posting-page {
+  padding: 20px 0px 100px;
+}
+.similer-job-sec {
+  background-color: #f7f7f7;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  position: relative;
+}
+
+.job-list-account {
+  padding: 70px 0px;
+  position: relative;
+}
+
+.acc-div-curve,
+.similer-job-sec {
+  position: relative;
+}
+.similer-job-sec-div {
+  padding-bottom: 70px;
+}
+
+.acc-div-curve img {
+  width: 100%;
+}
+.similer-job-sec::after {
+  position: absolute;
+  content: "";
+  width: 100% !important;
+  height: 1045px;
+  bottom: -50%;
+  left: 0;
+  background-image: url(/wp-content/themes/pro-child/img/jbg-lst1.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: contain;
+  margin-top: 0;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.job-seekar-page::before {
+  position: absolute;
+  content: "";
+  width: 100% !important;
+  height: 74vh;
+  top: 0;
+  right: 0;
+  background-image: url(/wp-content/themes/pro-child/img/jbg-lst2.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: contain;
+  margin-top: -261px;
+}
+
+.job-seekar-page::after {
+  position: absolute;
+  content: "";
+  width: 100% !important;
+  height: 1045px;
+  bottom: -50%;
+  left: 0;
+  background-image: url(/wp-content/themes/pro-child/img/jbg-lst1.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: contain;
+  margin-top: 0;
+  transform: translateY(-50%);
+}
+
+.similer-job-sec::before {
+  position: absolute;
+  content: "";
+  width: 20% !important;
+  height: 74vh;
+  top: 0;
+  right: 0;
+  background-image: url(/wp-content/themes/pro-child/img/jbg-lst2.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  z-index: 1;
+  background-size: contain;
+  margin-top: -261px;
+}
+
+.sjs-div {
+  position: relative;
+  z-index: 2;
+}
+.destop-curve {
+  display: block;
+}
+.mobile-curve {
+  display: none;
+}
+
+.jobs_filter_sec .job-info {
+  flex-wrap: wrap;
+}
+
+/* .jobs_filter_sec .job-info li:last-child a {
+  padding-left: 0;
+} */
+
+.jobs_filter_sec .job-info li:not(:first-child) .green-line {
+  display: none !important;
+}
+
+/* .jobs_filter_sec .job-info li:not(:first-child) a:after {
+  content: unset;
+} */
+
+.main-job-page .jobs_filter_sec .job-info li:last-child {
+  flex: 0 1 100%;
+  max-width: 100%;
+}
+.apply-div {
+  display: flex;
+  gap: 21px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.recent-colum2 {
+  position: relative;
+  z-index: 2 !important;
+}
+
+.circle-blue {
+  background-color: #406ebb;
+}
+
+.circle-blue img {
+  filter: brightness(100);
+}
+
+.jobs-tabs ul {
+  flex-direction: column;
+  border-radius: 0px 0px 10px 10px;
+  border: 1.5px solid rgba(191, 191, 191, 0.75);
+  margin-top: -5px !important;
+  border-top: 0px;
+  background-color: #fff;
+}
+
+.jobs-saved-con {
+  border-radius: 10px;
+  border: 1.5px solid rgba(191, 191, 191, 0.75);
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.jobs-tabs ul li button {
+  color: #000;
+  font-family: "ZeitungMicroPro";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: unset;
+  background-color: transparent;
+  padding: 19px 15px 21px;
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+.jobs-saved-con span {
+  color: #000;
+  font-family: "ZeitungMicroProBold";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: unset;
+  background-color: transparent;
+  padding: 19px 25px 20px 11px;
+  position: relative;
+  display: inline-block;
+}
+
+.jobs-saved-con img {
+  position: relative;
+  left: 20px;
+  top: -4px;
+}
+
+.jobs-tabs ul li button.active::before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #233f88;
+  z-index: 0;
+}
+
+.jobs-tabs ul li button.active,
+.jobs-tabs ul li button:focus {
+  border: unset;
+  outline: none;
+}
+
+.jobs-tabs ul .nav-item:not(:last-child) {
+  border-bottom: 1.5px solid rgba(191, 191, 191, 0.75);
+}
+
+.job-seekar-page {
+  padding: 100px 0px;
+}
+
+.job-seekar-info {
+  border-bottom: 1.5px solid #bfbfbf;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}
+
+.job-seekar-page {
+  position: relative;
+}
+
+body .gform_wrapper h3.gform_title {
+  display: none;
+}
+
+.job-page-txt #mht_topbar {
+  margin-bottom: 20px;
+}
+
+.custom-popup-login .gform_wrapper {
+  width: calc(100% - 150px);
+  margin: 0px auto !important;
+}
+
+.custom-popup-login .gform_footer {
+  margin-top: 45px !important;
+  align-items: center;
+  padding: 0px !important;
+}
+
+hr {
+  border: 1px solid #bfbfbf !important;
+  margin: 0 !important;
+}
+
+.custom-popup-login .gform_button,
+.sec-form .gform_footer .gform_button {
+  box-shadow: unset;
+  border: 1px solid #79b44b;
+  background-color: #79b44b;
+  margin-bottom: 0px;
+  padding: 17px 55px 20px;
+  color: #fff;
+  text-align: center;
+  font-family: "ZeitungMicroProBold";
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: unset !important;
+  line-height: normal;
+  line-height: 20px !important;
+  min-height: auto !important;
+  margin-bottom: 0px !important;
+}
+.energy-business-profile-creation .form-submit .submit {
+  box-shadow: unset;
+  border: 1px solid #79b44b;
+  background-color: #79b44b;
+  margin-bottom: 0px;
+  padding: 17px 55px 20px !important;
+  color: #fff;
+  text-align: center;
+  font-family: "ZeitungMicroProBold";
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: unset !important;
+  line-height: normal;
+  line-height: 20px !important;
+  min-height: auto !important;
+  margin-bottom: 0px !important;
+}
+
+.custom-popup-login .gform_button:hover,
+.energy-business-profile-creation .form-submit .submit:hover,
+.sec-form .gform_footer .gform_button:hover {
+  box-shadow: unset !important;
+  color: #79b44b;
+  border-color: #79b44b;
+  background-color: transparent;
+}
+
+.gf_login_links {
+  display: none;
+}
+.forget-password {
+  color: #000 !important;
+  font-family: "ZeitungMicroProBold";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  display: inline-block;
+  padding-left: 20px;
+}
+.sgpb-main-html-content-wrapper {
+  position: relative;
+}
+
+.job-page-txt .job-compnay-name a,
+.job-page-txt .job-title a {
+  color: #000;
+}
+
+.jobs-article-sec-discription.icon-active .moreless-button::before {
+  transform: rotate(180deg);
+  top: 5px;
+}
+
+.custom-popup-login .gfield--type-password legend.gfield_label {
+  display: none !important;
+}
+.custom-popup-login .description_above .ginput_container_password {
+  flex-direction: column;
+}
+
+.custom-popup-login
+  .description_above
+  .ginput_container_password
+  .ginput_password {
+  width: 100% !important;
+}
+
+.custom-popup-login
+  .description_above
+  .ginput_container_password
+  span.ginput_left
+  label {
+  padding-bottom: 18px !important;
+}
+.custom-popup-login
+  .description_above
+  .ginput_container_password
+  span.ginput_right
+  label {
+  padding-top: 20px;
+  padding-bottom: 16px !important;
+}
+
+.custom-popup-login .gform_wrapper.gravity-theme .gfield_validation_message {
+/*   position: absolute; */
+  display: inline-block;
+/*   bottom: -19px; */
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 12px;
+}
+
+.custom-popup-login .gfield {
+  position: relative !important;
+}
+
+.pp-dg-1 .bd-title3 {
+  margin-bottom: 20px;
+}
+
+.pp-dg-1 .bd-title4 {
+  margin-bottom: 30px;
+}
+
+.energy-business-profile-creation li label {
+  width: 100% !important;
+}
+
+.energy-business-profile-creation li input:not([type="checkbox"]) {
+  width: 100% !important;
+}
+
+.energy-business-profile-creation li select {
+  border-radius: 10px;
+  background: #fff;
+  height: 56px;
+  border-radius: 10px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  color: #3d424c;
+  font-family: "ZeitungMicroPro";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0px 20px 4px;
+  display: block;
+  width: 100%;
+  appearance: none;
+  background-image: url(/wp-content/uploads/2024/01/select-arrow-icon.png);
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 0.7em;
+}
+
+body .energy-business-profile-creation .wppb-user-forms textarea {
+  height: 132px;
+  border-radius: 10px !important;
+  border: 1.5px solid #bfbfbf !important;
+  background: #fff !important;
+  color: #3d424c !important;
+  font-family: "ZeitungMicroPro";
+  font-size: 26px !important;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0px 20px 4px;
+  line-height: 30px !important;
+  width: 100% !important;
+}
+
+.energy-business-profile-creation ul li:not(:first-child) {
+  flex: 1 1 48.33%;
+  padding-bottom: 30px;
+}
+
+.energy-business-profile-creation ul li.wppb-checkbox{
+  flex: 1 1 100%;
+}
+
+.energy-business-profile-creation ul li:first-child {
+  flex: 1 1 100%;
+  padding-bottom: 30px;
+}
+
+.energy-business-profile-creation .wppb-user-forms ul {
+  width: 100% !important;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 35px;
+}
+
+.energy-business-profile-creation .wppb-register-user .wppb-field-error {
+  background-color: transparent;
+  border: unset;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.energy-business-profile-creation .wppb-form-field > span.wppb-form-error {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+  margin-left: 0;
+  font-family: "ZeitungMicroPro";
+  font-size: 14px;
+  font-weight: 400;
+	font-style:normal;
+	color:#b94a48;
+}
+.extra_field_input {
+    border-radius: 10px !important;
+    border: 1.5px solid #bfbfbf !important;
+}
+
+.energy-business-profile-creation ul li.wppb-textarea {
+  flex: 1 1 100%;
+}
+
+.energy-business-profile-creation li label {
+  margin-bottom: 10px;
+}
+
+.energy-business-profile-creation li label span {
+  color: #000;
+  font-family: "ZeitungMicroProBold";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.energy-business-profile-creation ul li.wppb-upload a {
+  width: 100%;
+  background-color: transparent;
+  box-shadow: unset;
+  border: 0px !important;
+  border-radius: 10px;
+  border: 1.5px solid #bfbfbf !important;
+  background: #fff;
+  height: 56px;
+  font-family: "ZeitungMicroPro";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0px 20px 4px;
+  line-height: 30px !important;
+  text-align: left;
+  text-shadow: unset;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 68px;
+  position: relative;
+}
+
+.energy-business-profile-creation ul li.wppb-upload a:after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 11px;
+  bottom: 0;
+  background-image: url(/wp-content/themes/pro-child/img/upload-icon.svg);
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+}
+
+.energy-business-profile-creation .wppb-user-forms ul:nth-child(2) {
+  display: none;
+}
+
+.energy-business-profile-creation {
+  position: relative;
+}
+
+.energy-business-profile-creation .wppb-error {
+  background-color: transparent;
+  position: absolute;
+  top: -41px;
+  font-size: 14px;
+}
+
+.bpsec-main::before {
+  position: absolute;
+  content: "";
+  width: 100% !important;
+  height: 1143px;
+  bottom: 0;
+  right: 0;
+  background-image: url(/wp-content/themes/pro-child/img/bp-sec-right.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: contain;
+  margin-bottom: -437px;
+}
+
+.bpsec-main::after {
+  position: absolute;
+  content: "";
+  width: 100% !important;
+  height: 523px;
+  top: 0;
+  left: 0;
+  background-image: url(/wp-content/themes/pro-child/img/bp-sec-left.png);
+  background-position: left top;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-size: contain;
+  margin-top: -53px;
+}
+
+.sec-form .gfield .gform-field-label {
+  border-bottom: 0;
+  color: #000;
+  font-family: "ZeitungMicroProBold";
+  font-size: 24px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+.sec-form .gfield input:not([type="file"]) {
+  border-radius: 10px !important;
+  border: 1.5px solid #bfbfbf !important;
+  background: #fff;
+  height: 56px !important;
+  width: 100% !important;
+  display: inline-block;
+}
+
+body .sec-form .ginput_container_checkbox input[type='checkbox'] {
+    transform: scale(2.1);
+    height: unset !important;
+    width: auto !important;
+    margin-left: 21px !important;
+    margin: 0px !important;
+    margin-left: 16px;
+    position: relative;
+    left: 21px;
+    outline: 0px solid #c00;
+    border: 0.5px solid #fff !important;
+        top: -8px;
+}
+
+
+body .sec-form .ginput_container_checkbox #label_2_37_1 {
+    max-width: 100% !important;
+    display: inline-block;
+    padding-left: 45px;
+}
+
+
+.sec-form #field_2_37 .gchoice.gchoice_2_37_1 {
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+}
+
+
+.sec-form #field_11_19 span,
+.sec-form #field_11_21 span,
+.sec-form #field_11_20 span {
+  width: 100% !important;
+  flex: 0 0 100% !important;
+}
+
+.sec-form #field_2_37 .gfield_label{
+  display: none;
+}
+
+.sec-form .ginput_complex {
+  width: 100%;
+  display: block !important;
+  max-width: 100%;
+}
+
+.sec-form #field_11_1 legend.gform-field-label {
+  display: none !important;
+}
+
+.sec-form .gfield input[type="file"] {
+  border: none !important;
+  font-size: 15px;
+  padding: 0px;
+}
+
+.sec-form .ginput_container_fileupload {
+  display: block;
+  border: 1.5px solid #bfbfbf;
+  border-radius: 10px !important;
+  color: #34495e;
+  cursor: pointer;
+  height: 56px;
+  line-height: 40px;
+  text-align: left;
+  background: #ffffff;
+  position: relative;
+  padding: 5px 10px 0px;
+}
+
+.sec-form select {
+  border-radius: 10px;
+  background: #fff;
+  height: 56px;
+  border-radius: 10px;
+  border: 1.5px solid #bfbfbf;
+  background: #fff;
+  color: #3d424c;
+  font-family: "ZeitungMicroPro";
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 0px 20px 4px;
+  display: block;
+  width: 100%;
+  appearance: none;
+  background-image: url(/wp-content/uploads/2024/01/select-arrow-icon.png);
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 0.7em;
+}
+
+.sec-form #gfield_upload_rules_11_8,
+.sec-form #gfield_upload_rules_11_22 {
+  display: none;
+}
+
+.edit-profile-popup-form {
+  border: 0px !important;
+}
+
+.sec-form .gform_wrapper.gravity-theme .ginput_container_address {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.sec-form .gform_wrapper.gravity-theme .ginput_container_address span {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.sec-form .gform_footer {
+  padding-top: 30px !important;
+}
+
+#gform_11 {
+  margin-bottom: 0px !important;
+}
+
+.gfield_validation_message {
+/*   position: absolute; */
+  background-color: transparent !important;
+  border: none !important;
+  font-size: 12px !important;
+	padding:0 !important;
+/*   bottom: -35px; */
+/*   left: -21px; */
+}
+
+
+.sec-form .gfield {
+  position: relative;
+}
+
+.jbf-curve-img {
+  z-index: 1;
+}
+
+.job-filter-sec .x-anchor-text-primary {
+  font-family: ZeitungMicroProBold !important;
+}
+
+.job-filter-sec img {
+  width: 25px !important;
+}
+
+.job-filter-sec img {
+  width: 29px !important;
+  position: relative;
+  top: 6px;
+  left: 3px;
+}
+
+.job-filter-sec::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: -40px;
+  right: 0;
+  width: calc(100vw + 150px);
+  height: 1px;
+  background-color: #bfbfbf;
+  display: flex;
+  justify-content: start;
+}
+
+.job-compnay-name a,
+.job-title a {
+  color: #000;
+}
+
+.ee-number-sec2::before{
+	z-index:0 !important;
+}
+
+/* .job-title a:hover {
+  color: #000 !important;
+}
+ */
+.saved-posts-list .job-compnay-name {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.job-page-txt p {
+  display: none;
+}
+
+.job-page-txt p {
+  display: inline-block;
+  line-height: 27px;
+  margin-bottom: 0px;
+}
+
+#course-filter-form .side_filtr {
+  align-items: start !important;
+}
+
+span.post_divider {
+  line-height: 29px;
+  font-size: 27px;
+}
+
+.resultnumber-sec, .results-info-desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination a, .pagination span  {
+color: #000 !important;
+    font-family: "ZeitungMicroPro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    background-color: transparent;
+        padding: 0px 3px;
+            cursor: pointer;
+}
+
+.pagination a i{
+  position: relative;
+}
+
+.pagination .fa-chevron-left:before{
+background-image: url(/wp-content/themes/pro-child/img/fas-left-arrow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    display: inline-block;
+    top: -19px;
+    content: '' !important;
+    right: -1px;
+}
+
+.pagination .fa-chevron-right:before{
+background-image: url(/wp-content/themes/pro-child/img/fas-left-arrow.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 13px;
+    height: 22px;
+    display: inline-block;
+    top: -19px;
+    content: '' !important;
+    right: 0px;
+    transform: rotate(180deg);
+}
+.pagination a.active{
+  color: #fff !important;
+      background-color: #233F88;
+      padding: 2px 10px;
+}
+
+
+.pagination a.active::after{
+    content: '' !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #233F88;
+    color: #fff;
+    top: 0px;
+    left: 0px;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+ bottom: 0;
+}
+
+.pagination {
+  display: flex;
+  column-gap: 29px;
+}
+
+.pagination .page-numbers.current {
+  background-color: #233f88;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: #fff !important;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.login-sec-popup p:empty {
+  display: none;
+}
+
+.re-num span, .results-info {
+  color: #000;
+  font-family: "ZeitungMicroProBold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/*#mht_results li:nth-child(n + 4) {
+  display: none;
+}*/
+
+/*body.page .custom-menu-class .menu .menu-item:last-child{
+  display: none;
+}*/
+
+/*body.page.logged-in .custom-menu-class .menu .menu-item:last-child{
+  display: inline-block;
+}
+
+body.page .destop-header .nv-sec:first-child .menu-item:last-child{
+  display: none;
+} 
+
+
+body.page.logged-in .destop-header .nv-sec:first-child .menu-item:last-child{
+  display: block;
+}
+
+body.page .mobile-header .nv-sec:first-child .menu-item:nth-child(5){
+  display: none;
+} 
+
+
+body.page.logged-in .mobile-header .nv-sec:first-child .menu-item:nth-child(5){
+  display: block;
+} */
+
+.job-traning--row .job-posting-article {
+    padding-left: 50px;
+}
+
+/* CSS for Pagination Links */
+a.prev.page-numbers ,a.page-numbers {
+  color:#0056b3;
+}
+
+.toggle-menu.active{
+  background-color: unset !important;
+}
+
+.toggle-menu.active::after{
+  content: unset !important;
+}
+
+#e2368-e17-modal .x-modal-close {
+    color: #79B44B !important;
+    right: 35px !important;
+}
+
+
+.add_business:hover {
+    color: #79B44B;
+}
+
+.search_Bookmark_btn {
+  border: 1px solid #79B44B !important;
+  padding: 13px 22px 14px !important;
+}
+
+.search_Bookmark_btn:hover{
+  background-color: transparent;
+  color: #79B44B !important;
+}
+
+.search_Bookmark_btn:hover img{
+     filter: brightness(0) saturate(100%) invert(63%) sepia(18%) saturate(1156%) hue-rotate(51deg) brightness(98%) contrast(92%);
+}
+
+.main-traning-sec .job-info li:last-child a{
+  padding-left: 10px;
+}
+
+#course-filter-form .side_filtr input{
+  margin-top: 5px !important;
+}
+
+.menu-item-has-children {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.custom-menu-class .menu-item-has-children .sub-menu {
+position: absolute;
+    right: 2px;
+    top: -3px;
+    width: 100%;
+    background-color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.7s;
+    z-index: 0;
+    -webkit-box-shadow: 11px 10px 38px 0 rgb(46 63 99 / 15%);
+    -moz-box-shadow: 11px 10px 38px 0 rgba(46, 63, 99, 0.15);
+    box-shadow: 11px 10px 38px 0 rgb(46 63 99 / 15%);
+    list-style-type: none;
+    text-align: left;
+    transform: scaleY(0);
+    padding: 39px 10px 15px;
+    transform-origin: top center;
+}
+
+.energy-business-profile-creation p {
+    padding: 0;
+}
+
+.custom-menu-class .menu-item-has-children .sub-menu li:first-child{
+    border-top: 1px solid #ddd;
+}
+
+.custom-menu-class .menu-item-has-children .sub-menu a{
+color: #233F88;
+  font-family: "ZeitungMicroPro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: unset !important;
+  display: inline-block;
+
+}
+
+.custom-menu-class .sub-menu li{
+  padding: 0px 2px 0px !important;
+    display: block;
+}
+
+/*.custom-menu-class .sub-menu li:*/
+
+/*.custom-menu-class li:first-child{
+  color: #70A6FF;
+  font-family: "ProximaNovaExtrabold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: relative; 
+}*/
+
+
+.custom-menu-class  .menu-item-has-children:hover .navigation-menu-item::after{
+        right: -22px;
+}
+
+.custom-menu-class  .menu-item-has-children .navigation-menu-item{
+  position: relative;
+  display: block;
+}
+.custom-menu-class  .menu-item-has-children:hover .navigation-menu-item a{
+  color: #70a6ff !important;
+}
+
+.jobsearch_employer .custom-menu-class  .menu-item-has-children:hover .navigation-menu-item::after{
+      right: -15px;
+}
+
+
+.jobsearch_employer .custom-menu-class  .menu-item-has-children .navigation-menu-item::after{
+      right: 8px;
+}
+
+/*.custom-menu-class  .menu-item-has-children .truncate::after{
+  background-image: url(/wp-content/uploads/2024/03/down-arrow.svg);
+  position: absolute;
+  content: "" !important;
+  width: 14px;
+  height: 14px;
+  background-size: contain;
+    top: 2px;
+    right: 0;
+  background-position: top right;
+  background-repeat: no-repeat;
+  z-index: 1;
+  transition-delay: 0s, 0s, 700ms;
+}*/
+
+/*.truncate {
+    position: relative;
+    width: 12ch;
+    display: inline-block;
+       white-space: nowrap;
+           text-overflow: ellipsis;
+    overflow: hidden;
+}*/
+/*.custom-menu-class .menu-item-has-children .navigation-menu-item a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 17ch;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}*/
+
+/*.admin-bar .main-navbar-submienu{
+ padding-left: 0px;
+}
+*/
+
+
+/*.logged-in .custom-menu-class .menu-item-has-children .sub-menu{
+      min-width: 250px;
+      right: -59px;
+  }
+
+  .logged-in .custom-menu-class .menu-item-has-children .navigation-menu-item::after{
+       right: -56px;
+  }*/
+
+  .navbar-list .menu-item a img{
+    position: relative;
+    top:-2px;
+  }
+
+/*.custom-menu-class .menu-item-has-children{
+  width: 195px;
+  text-align: left;
+  display: inline-block;
+}*/
+
+.custom-menu-class .menu-item-has-children:hover > a{
+  color: #70A6FF;
+}
+
+.custom-menu-class .menu-item-has-children:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    /* top: 100%; */
+    transform: scaleY(1);
+}
+
+/*.admin-bar .custom-menu-class .menu-item-has-children .navigation-menu-item::after{
+  right: 21px;
+}
+.admin-bar .custom-menu-class  .menu-item-has-children:hover .navigation-menu-item::after{
+        right: -5px;
+}
+
+
+.admin-bar .custom-menu-class .menu-item-has-children .sub-menu {
+    min-width: 199px;
+    right: -5px;
+}
+
+.admin-bar  .logged-in .main-navbar-submienu{
+ padding-left: 20px;
+}*/
+
+
+.footer-sec .footer-item .menu-item{
+  padding-left: 0px !important;
+   padding-right: 0px !important;
+}
+
+.entry-content{
+  margin-top: 0px !important;
+}
+
+.web_view_filter .primary-btn {
+background-color: #79b44b !important;
+    color: #fff !important;
+    box-shadow: unset !important;
+    text-shadow: unset !important;
+    border: 1px solid #79b44b !important;
+    margin-bottom: 0px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.web_view_filter .primary-btn:hover{
+   background-color:transparent !important;
+   color: #79b44b !important;
+}
+
+/*.sub-menu{
+  display: none;
+}*/
+
+.learn-btn {
+    border-radius: 5px;
+    background: #79b44b;
+    padding: 5px 24px 6px;
+    display: inline-block;
+    color: #fff !important;
+    font-family: ZeitungMicroProBold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: relative;
+    border: 1px solid #79b44b;
+    transition: 0.3s;
+    z-index: 3;
+}
+
+.learn-btn:hover{
+     background-color:transparent !important;
+   color: #79b44b !important;
+}
+
+.event-more-btn {
+  padding-bottom: 40px;
+}
+
+
+.event-main-sec .green-line {
+    position: relative;
+    top: -2px;
+}
+
+/*.more-events {
+   margin-top:-80px; 
+}*/
+
+.energy-animation li span{
+      width: 160px;
+    height: 160px;
+    background-color: #79b44b;
+    border-radius: 50%;
+    padding: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all 450ms ease-in-out;
+    -moz-transition: all 450ms ease-in-out;
+    -o-transition: all 450ms ease-in-out;
+    -ms-transition: all 450ms ease-in-out;
+    transition: all 450ms ease-in-out;
+    margin-top: -14px
+}
+
+.energy-animation span img {
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+  width:95px;
+}
+.energy-animation span:hover img {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+}
+
+.energy-animation li span:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.joblist-sec .circle-animation span img {
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+    width: 58px !important;
+}
+
+.joblist-sec .circle-animation span{
+  width: 120px;
+  height: 120px;
+}
+
+.news-event-page .event-main-sec li .event-more-btn{
+  padding-bottom: 40px;
+}
+
+.news-event-page .more-events{
+  display: none;
+}
+
+.meghawat-sec.joblist-sec li:not(:last-child){
+  padding-bottom: 50px;
+}
+
+.upcoming-sec2 .event-list:not(:last-child) .event-more-btn{
+  padding-bottom: 40px;
+}
+
+.emp_source{
+  padding: 8px 36px;
+  border-radius: 7px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-align: center;
+  background-color: #F1F1F1;
+  color:#000;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/*.circle-animation span{
+      width: 100px;
+    height: 100px;
+    background-color: #79b44b;
+    border-radius: 50%;
+    padding: 14px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition: all 450ms ease-in-out;
+    -moz-transition: all 450ms ease-in-out;
+    -o-transition: all 450ms ease-in-out;
+    -ms-transition: all 450ms ease-in-out;
+    transition: all 450ms ease-in-out;
+    margin-top: -14px
+}
+
+.circle-animation span img {
+  -webkit-transition: 0.6s ease-out;
+  -moz-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
+}
+.circle-animation span:hover img {
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+}
+
+.circle-animation span:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}*/
+
+.cat_scroll::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset #fff;
+  background-color: #FFF;
+}
+
+.cat_scroll::-webkit-scrollbar
+{
+  width: 5px;
+  background-color: #FFF;
+}
+
+.cat_scroll::-webkit-scrollbar-thumb
+{
+  background-color: #FFF;
+}
+
+.cat_scroll{
+   max-height: 250px;
+    overflow-y: scroll;
+}
+
+.employer-icon li span img{
+    width: 75px;
+}
+
+
+.menu-item-has-children{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width:992px){
+     .m-hide{
+    display: none !important;
+  }
+  .enegry-space-left{
+    padding-left: 0
+  }
+}
+  .m-hide{
+    display: block;
+  }
+.col-lg-3 .bd-title3{
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .job-listing-company-logo {
+    max-width: 60px;
+    flex: 0 0 60px;
+    margin-bottom: 0;
+  }
+
+.filter-toggel{
+  display: none;
+}
+
+}
+
+@media (min-width: 992px) {
+  .job-listing-company-logo {
+    max-width: 90px;
+    flex: 0 0 90px;
+  }
+  .curd-btn {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .job-listing-company-logo {
+    max-width: 95px;
+    flex: 0 0 95px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .job-listing-company-logo {
+    max-width: 110px;
+    flex: 0 0 110px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .custom-arrow1.left-custom {
+    left: -77px;
+  }
+  .custom-arrow1.right-custom {
+    right: -77px;
+  }
+  .heading-sec h1 {
+    color: #fff;
+    font-size: 105.09px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 85.869%; 
+    letter-spacing: -2.102px;
+  }
+  .heading-txt-sec {
+    width: 820px !important;
+  }
+  .heading-sec {
+    max-width: 761px !important;
+  }
+  .x-container.max {
+    max-width: 1580px !important;
+  }
+  .left-container {
+    padding-left: calc((100vw - 1630px) / 2) !important;
+  }
+  .right-container {
+    padding-right: calc((100vw - 1580px) / 2) !important;
+  }
+  .attention-clean-sec::before {
+    height: calc(100vh - 250px);
+    top: 0;
+    margin-top: -150px;
+  }
+  .ee-m-redy-img {
+    margin-top: -120px !important;
+  }
+}
+
+@media (min-width: 1850px) {
+  .x-container.max {
+    max-width: 1730px !important;
+  }
+  .maine-is-ready::before {
+    height: 91%;
+    top: 33%;
+  }
+  .nv-sec .menu-item a {
+    font-size: 30px;
+  }
+  .nv-sec .menu-item .sub-menu a {
+    font-size: 25px;
+  }
+  .icon-head h2 {
+    font-size: 50px;
+    line-height: 30px;
+  }
+  .joblist-sec li:not(:first-child) span{
+        margin-top: -55px;
+  }
+/*  .joblist-sec li:not(:last-child) {
+    padding: 0px 0px 75px;
+  }*/
+
+  .icon-head p {
+    font-size: 25px;
+  }
+  .primary-btn {
+    font-size: 25px;
+  }
+  .paragraph1 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .curd-btn a {
+    font-size: 25px;
+    line-height: 27px;
+  }
+  .form-select,
+  .search-filter .form-control {
+    height: 65px;
+    font-size: 25px;
+  }
+  .search-filter {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .search-filter .primary-btn {
+    font-size: 25px !important;
+    padding: 13px 61px 15px !important;
+  }
+  .job-search::before {
+    top: 23px;
+  }
+  .left-container {
+    padding-left: calc((100vw - 1730px) / 2) !important;
+  }
+  .right-container {
+    padding-right: calc((100vw - 1730px) / 2) !important;
+  }
+  .primary-btn {
+    padding: 14px 60px 17px;
+  }
+  .mr-energy-div {
+    margin-bottom: -1000px !important;
+  }
+  .skills-section {
+    padding-top: 265px !important;
+  }
+  .career-sec::before {
+    margin-top: -517px;
+    height: 100vh;
+    width: 100% !important;
+  }
+  .slider-txt h4 {
+    font-size: 40px !important;
+    line-height: 45px !important;
+  }
+  .blue-curve-txt-row {
+    padding-top: 20rem !important;
+    padding-bottom: 29rem !important;
+  }
+  .slider-space-sec {
+    padding-bottom: 280px !important;
+  }
+  .career-sec .circleIimg img {
+    width: 90% !important;
+  }
+  .career-sec-colum > div {
+    margin-top: -200px !important;
+  }
+  .career-sec .clean-g-div1 {
+    padding-right: 8rem !important;
+  }
+  .heading1 {
+    font-size: 105.09px;
+    line-height: 90.24px;
+  }
+  .renewable-txt {
+    margin-top: -110px;
+  }
+  .service-sec {
+    padding-bottom: 0px !important;
+  }
+  .white-bottom-row-destop {
+    margin-top: -70px;
+  }
+  .service-sec-row {
+    padding-top: 180px;
+  }
+  .white-top-row-destop {
+    margin-top: -70px;
+  }
+  .career-sec {
+    padding-bottom: 150px !important;
+  }
+  .cleanenergy-second-sec {
+    padding-top: 130px !important;
+  }
+  .how-doing-so-far-sec-txt {
+    max-width: 1430px;
+  }
+  .skills-section .slider-txt {
+    padding: 70px !important;
+  }
+  .cleanenergy-main-company-logo ul {
+    gap: 100px;
+  }
+  .efficiency-banner .renewable-txt {
+    margin-top: -20px;
+  }
+  .efficiency-banner .heading1 {
+    font-size: 107px;
+  }
+  .ef-plenty-sec {
+    width: 830px !important;
+    padding-left: 6rem !important;
+  }
+  .building-sec .joblist-sec li {
+    padding-bottom: 0px !important;
+    padding-top: 30px !important;
+  }
+  .building-sec .icon-head {
+    margin-top: 30px;
+  }
+  .all-about-buildings-sec {
+    padding-bottom: 325px !important;
+  }
+  .plenty-of-work-sec .circleIimg {
+    margin-top: -300px !important;
+  }
+  .ee-workforce-se {
+    padding-top: 100px;
+    padding-bottom: 130px;
+  }
+  .result-main-sec {
+    padding-bottom: 130px !important;
+    padding-top: 100px !important;
+  }
+  .ee-m-redy-img {
+    margin-top: -160px !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .career-sec::before {
+    margin-top: -650px;
+    height: 90vh;
+  }
+  .heading1 {
+    font-size: 112.09px;
+    line-height: 90.24px;
+  }
+  .efficiency-banner .heading1 {
+    font-size: 111px;
+  }
+}
+
+@media (min-width: 2400px) {
+  .heading1 {
+    font-size: 116.09px;
+    line-height: 104.24px;
+  }
+  .paragraph1 {
+    font-size: 57px;
+  }
+  .efficiency-banner .heading1 {
+    font-size: 117px;
+  }
+  .generation-txt .heading1 {
+    font-size: 125px;
+    line-height: 104.24px;
+  }
+}
+
+@media (min-width: 2700px) {
+  .heading1 {
+    font-size: 125px;
+    line-height: 100.24px;
+  }
+  .paragraph1 {
+    font-size: 60px;
+    line-height: 68px;
+  }
+}
+
+@media (min-width: 1701px) and (max-width: 3200px) {
+  .home-banner {
+    height: calc(100vh - 5rem);
+  }
+  .admin-bar .home-banner {
+    height: calc(100vh - 6.5rem);
+  }
+  .search-container {
+    margin-top: -200px !important;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1700px) {
+  .career-sec .clean-g-div1 {
+    padding-right: 6rem !important;
+  }
+  .heading-sec h1 {
+    font-size: 71px !important;
+    line-height: 73px !important;
+  }
+  .slider-txt {
+    height: 310px !important;
+  }
+
+  .energy-sectore-slider .slider-txt{
+    height: auto !important;
+  }
+  .slider-txt h4 {
+    font-size: 30px;
+  }
+  .upcoming-sec-div {
+    margin-top: -653px !important;
+  }
+  .upcoming-sec-div-img img {
+    width: 70% !important;
+  }
+  .jlms-1 {
+    margin-left: -62px !important;
+  }
+  .home-banner {
+    height: calc(100vh - 5rem);
+  }
+  .admin-bar .home-banner {
+    height: calc(100vh - 6.5rem);
+  }
+  .custom-arrow .arrow1 {
+    width: 2em !important;
+    height: 2em !important;
+  }
+  .custom-arrow .arrow1 > span {
+    height: 15px !important;
+    width: 15px !important;
+  }
+  .custom-arrow{
+    left: -70px !important;
+    right: -70px !important;
+  }
+  .custom-arrow .arrow1 > span > img {
+    height: 15px !important;
+  }
+}
+
+@media (max-width: 2000px) {
+  .job-info li a {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1849px) {
+  .heading1 {
+    font-size: 100px;
+    line-height: 77px;
+  }
+}
+
+@media (max-width: 1700px) {
+
+  .txt-blue {
+    line-height: 28px;
+  }
+  .left-container {
+    padding-left: calc((100vw - 1420px) / 2) !important;
+  }
+  .right-container {
+    padding-right: calc((100vw - 1420px) / 2) !important;
+  }
+  .custom-arrow {
+    left: -70px;
+    right: -70px;
+  }
+  .paragraph,
+  .icon-head p {
+    font-size: 20px;
+  }
+
+  .heading2,
+  .heading2 h2 {
+    font-size: 65px;
+    line-height: 60px;
+  }
+  .popup-title {
+    font-size: 39px;
+    line-height: 30px;
+  }
+  .heading3 {
+    font-size: 79px;
+  }
+  .counter-paragraph {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .paragraph1 {
+    font-size: 45px;
+  }
+  .ee-second-sec::before {
+    height: 300px;
+  }
+  .upcoming-sec-div-img {
+    width: 90% !important;
+  }
+  .title1 {
+    font-size: 87px;
+  }
+  .joblist-sec ul {
+    padding-right: 19px;
+  }
+  .joblist-sec li {
+    padding: 0px 0px 25px;
+  }
+  .cleanenergy-main-company-logo ul li {
+    flex: 0 0 290px;
+    max-width: 290px;
+  }
+  .attention-clean-sec::before {
+    height: calc(100vh - 307px);
+    top: -89px;
+  }
+  .heading1 {
+    font-size: 90.09px;
+  }
+  .result-main-sec::after {
+    height: calc(100vh - 249px);
+  }
+  .job-info li a {
+    font-size: 17px;
+  }
+  body .subscribe-sec .gform_wrapper .gfield_label {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  body .subscribe-sec .gform_wrapper .gform_footer {
+    margin-top: 30px !important;
+  }
+  body .subscribe-sec .gform_wrapper.gravity-theme .gform_fields {
+    grid-row-gap: 65px;
+  }
+  body .subscribe-sec .gform-grid-col .gform-field-label {
+    font-size: 22px !important;
+    line-height: 24px !important;
+  }
+  body .subscribe-sec .gform_wrapper input[type="submit"] {
+    padding: 17px 55px 18px;
+    font-size: 20px;
+  }
+  body .subscribe-sec .gform_wrapper .gform-body .gfield_select {
+    height: 53px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  body .subscribe-sec .gform_wrapper .gform-body input {
+    height: 53px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  .newsevent-sec::after {
+    height: 80vh;
+    margin-bottom: -159px;
+  }
+  .title4 {
+    min-height: 98px;
+    margin-bottom: 0px;
+  }
+  body .sgpb-main-html-content-wrapper .event-popup .gform-field-label {
+    font-size: 20px;
+  }
+  body .sgpb-main-html-content-wrapper .event-popup .gfield_time_ampm select,
+  body
+    .sgpb-main-html-content-wrapper
+    .event-popup
+    .gform_wrapper
+    .gform-body
+    .gfield_select,
+  body
+    .sgpb-main-html-content-wrapper
+    .event-popup
+    .gform_wrapper
+    .gform-body
+    input, #gform_wrapper_4 .gform-body
+  input {
+    font-size: 18px;
+    height: 46px;
+  }
+  body
+    .sgpb-main-html-content-wrapper
+    .event-popup
+    .gform_wrapper.gravity-theme
+    .gform_fields {
+    grid-row-gap: 20px;
+  }
+  body .custom-popup-login .login-popup .um-field-label label,
+  .custom-popup-login .gfield .gform-field-label,
+  .energy-business-profile-creation li label {
+    font-size: 20px !important;
+    padding-bottom: 0px;
+  }
+  .sharelink {
+    font-size: 20px;
+    padding: 12px 19px 14px 31px;
+  }
+  .account {
+    font-size: 20px;
+  }
+  .bd-title3 {
+    font-size: 40px;
+    margin-bottom: 23px;
+  }
+  .bd-title4 {
+    line-height: 36px !important;
+    font-size: 27px;
+  }
+  .pi-list {
+    padding-top: 0;
+    margin-bottom: 29px;
+  }
+  .pi-list span {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .green-btn,
+  .blu-trans-btn {
+    padding: 6px 28px 8px;
+  }
+
+  .secondray-btn {
+    padding: 6px 28px 8px;
+  }
+
+  .moreless-button {
+    font-size: 19px;
+  }
+  .moreless-button::before {
+    background-size: 16px;
+    top: 12px;
+  }
+  #sgpb-popup-dialog-main-div {
+    width: 580px !important;
+    padding: 40px !important;
+  }
+
+  #sgpb-popup-dialog-main-div .um {
+    margin-bottom: 0px !important;
+  }
+  #sgpb-popup-dialog-main-div .um form {
+    margin-bottom: 0px !important;
+  }
+  .custom-popup-login .um-field {
+    padding-top: 10px !important;
+  }
+  body .custom-popup-login .um-form input.um-form-field,
+  .custom-popup-login .gfield input,
+  .energy-business-profile-creation li input,
+  .energy-business-profile-creation li select {
+    height: 50px !important;
+    font-size: 18px;
+  }
+
+  .custom-popup-login .gform_button,
+  .sec-form .gform_footer .gform_button {
+    font-size: 19px;
+    padding: 12px 38px 14px;
+    line-height: 20px;
+  }
+
+  .forget-password {
+    font-size: 19px;
+  }
+  .jobs-saved-con span,
+  .jobs-tabs ul li button {
+    font-size: 20px;
+  }
+  .energy-business-profile-creation li label span {
+    font-size: 20px;
+  }
+  .energy-business-profile-creation ul li.wppb-upload a {
+    height: 50px;
+    font-size: 20px;
+  }
+  .sec-form .gfield input:not([type="file"]),
+  .sec-form select,
+  .sec-form .ginput_container_fileupload {
+    height: 50px !important;
+  }
+  .sec-form .gfield .gform-field-label {
+    font-size: 20px !important;
+  }
+
+  .search-filter .primary-btn {
+    padding: 9px 25px 11px;
+  }
+
+  .social-btn{
+        padding: 15px 0px 30px;
+  }
+  .custom-popup-login .gform_wrapper {
+     padding-top: 15px;
+  }
+
+  .custom-popup-login .gform_wrapper.gravity-theme .gform_fields{
+       grid-row-gap: 8px;
+  }
+  .custom-popup-login .gform_footer{
+    margin-top: 30px !important; 
+  }
+  .job-title {
+    font-size: 25px;
+    line-height: 34px
+  }
+  .job-listing-list{
+        padding: 30px;
+  }
+   .job-page-txt p {
+      line-height: 23px;
+      font-size: 22px;
+  }
+  #course-filter-form .side_filtr label{
+    font-size: 17px !important;
+    line-height: 23px !important;
+  }
+
+  .job-compnay-name{
+        font-size: 21px;
+  }
+}
+
+@media (max-width: 1550px) {
+  .left-container {
+    padding-left: calc((100vw - 1280px) / 2) !important;
+  }
+  .right-container {
+    padding-right: calc((100vw - 1280px) / 2) !important;
+  }
+  .cleanenergy-main-company-logo ul li {
+    flex: 0 0 263px;
+    max-width: 261px;
+  }
+  .circle,
+  .jobicon-share {
+    width: 40px;
+    height: 40px;
+  }
+	.saveJobBtn{
+		width:auto;
+		height:auto;
+	}
+  .jobicon-share img {
+    width: 15px;
+  }
+  .job-info li a {
+    font-size: 14px;
+  }
+  .job-compnay-name {
+    font-size: 18px;
+  }
+  .search-filter .primary-btn {
+    min-width: unset !important;
+  }
+    .navbar-list .menu-item a{
+        font-size: 16px;
+  }
+  .logohe {
+    width: 201px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .x-container.max {
+    max-width: 1150px !important;
+  }
+  .custom-container {
+    max-width: 1150px !important;
+  }
+  .left-container {
+    padding-left: calc((100vw - 1150px) / 2) !important;
+  }
+  .right-container {
+    padding-right: calc((100vw - 1150px) / 2) !important;
+  }
+  .heading-sec {
+    margin-top: -10rem;
+  }
+  .form-select,
+  .search-filter .form-control {
+    font-size: 14px;
+  }
+  .curd-btn a {
+    font-size: 17px;
+  }
+  .search-filter {
+    padding: 30px 35px;
+  } /*    .icon-head p,
+.paragraph, .icon-head p, .footer-item{ font-size:px; }*/
+  .txt-blue {
+    font-size: 20px;
+  }
+  .morejobs a {
+    font-size: 20px;
+  }
+  .upcoming-sec-div {
+    margin-top: -710px !important;
+  }
+  .navigation-sec {
+    width: 100%;
+    padding: 110px 35px;
+  }
+  .ee-second-sec::before {
+    height: 250px;
+  }
+  .job-title {
+    font-size: 24px;
+    line-height: 31px;
+  }
+  .custom-arrow {
+    left: -70px !important;
+    right: -70px !important;
+  }
+  .search-filter .primary-btn {
+    padding: 10px 29px 12px;
+    font-size: 19px !important;
+  }
+  .counter-paragraph {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  .maine-is-ready::after {
+    height: 75vh;
+  }
+  .efficiency-banner-sec::after {
+    height: calc(100vh + 680px);
+    margin-top: -230px;
+  }
+  .plenty-of-work-sec::before {
+    height: calc(100vh - 212px);
+    top: -28%;
+  }
+  .title1 {
+    font-size: 65px;
+  }
+  .main-heading {
+    margin-top: -220px !important;
+  }
+  .paragraph1 {
+    font-size: 37px;
+    line-height: 37px;
+  }
+  .cleanenergy-main-company-logo ul li {
+    flex: 0 0 242px;
+    max-width: 235px;
+  }
+  .heading1 {
+    font-size: 75.09px;
+    line-height: 77px;
+  }
+
+ .footer-item .x-anchor-content{
+  padding-top: 5px !important;
+  padding-bottom: 3px !important;
+  }
+  .footer-item, .footer-item .x-anchor-text-primary{
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+  .heading5 {
+    font-size: 25px;
+  }
+
+  .newsevent-sec::after {
+    height: 70vh;
+  }
+  .popup-title {
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .custom-popup-login .um-field {
+    padding-top: 7px !important;
+  }
+  body .custom-popup-login .login-popup .um-field-label label,
+  .custom-popup-login .gfield .gform-field-label,
+  .energy-business-profile-creation li label {
+    font-size: 17px !important;
+  }
+  .sharelink {
+    font-size: 14px;
+    padding: 8px 19px 8px 31px;
+    width: 100%;
+  }
+
+  body .custom-popup-login .login-popup .um-row {
+    margin-bottom: 0px !important;
+  }
+  .register-popup .login-popup {
+    padding-top: 14px;
+  }
+  body .custom-popup-login .um-form input.um-form-field,
+  .custom-popup-login .gfield input,
+  .energy-business-profile-creation li input,
+  .energy-business-profile-creation li select {
+    height: 41px !important;
+  }
+  body .um-center .um-button {
+    padding: 9px 21px 13px !important;
+    font-size: 18px !important;
+  }
+  .account {
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  .sharelink img {
+    width: 17px;
+  }
+  .custom-popup-login .gform_wrapper {
+    width: 100%;
+  }
+
+  .event-list p{
+    font-size: 18px;
+  }
+
+  .upevent-list li h5{
+    font-size: 19px;
+    line-height: 28px;
+  }
+	
+}
+
+@media (max-width: 1300px) {
+  .ee-number-sec::before {
+    height: 554px;
+    top: -15%;
+  }
+  .cleanenergy-main-company-logo ul li {
+    flex: 0 0 225px;
+    max-width: 221px;
+  }
+  .job-listing-list {
+    padding: 20px 18px;
+  }
+  .similer-job-sec::after {
+    height: 100vh;
+  }
+
+  .filter_accordion{
+    font-size: 17px !important;
+  }
+
+  .custom-menu-class .menu-item-has-children .sub-menu a{
+     font-size: 18px !important;
+  }
+  .main-navbar-submienu{
+    padding-left: 10px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .left-container {
+    padding-left: calc((100vw - 88%) / 2) !important;
+  }
+  .right-container {
+    padding-right: calc((100vw - 88%) / 2) !important;
+  }
+  .txt-blue {
+    font-size: 18px;
+  }
+  .custom-arrow {
+    top: unset !important;
+    left: 46% !important;
+    right: 46% !important;
+    bottom: -72px !important;
+  }
+  .job-title {
+    line-height: 26px;
+    font-size: 20px;
+  }
+  .job-page-txt p {
+    line-height: 22px;
+    font-size: 18px;
+}
+  .event-list p {
+    margin-top: 8px;
+    line-height: 25px;
+  }
+  .custom-container {
+    max-width: 1062px !important;
+  }
+  .counter-sec::before {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .heading2,
+  .popup-title {
+    line-height: 49px;
+    font-size: 47px;
+  }
+  .joblist-sec ul {
+    padding-right: 0px;
+  }
+  .upcoming-sec-div-img img {
+    width: 50% !important;
+  }
+  .search-filter {
+    padding-left: 14px;
+    padding-right: 14px;
+    gap: 5px;
+  }
+  .icon-head h2, .icon-head h2 a {
+    line-height: 30px;
+    font-size: 29px;
+  }
+  .heading1 {
+    font-size: 54.09px;
+    line-height: 52px;
+  }
+  .job-compnay-name {
+    font-size: 16px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+  }
+  .post-title {
+    font-size: 12px;
+  }
+  .title4 {
+    min-height: 72px;
+    margin-bottom: 0px;
+    font-size: 32px;
+    line-height: 33px;
+  }
+/*  .logohe {
+    width: 250px;
+  }*/
+  .energy-business-profile-creation ul li:not(:first-child) {
+    flex: 0 1 47.33%;
+  }
+.navbar-list .custom-menu-class  .menu-item a{
+    font-size: 17px;
+  }
+    #menu-main-menu .menu-item {
+    padding: 0px 10px;
+  }
+
+  .navbar-list .custom-menu-class .menu-item a {
+    font-size: 14px;
+}
+.main-navbar-icon img {
+    width: 38px;
+} 
+}
+
+@media (max-width: 1024px) {
+
+  .blue-section::before {
+    margin-top: -161px;
+  }
+  .maine-is-ready::after {
+    height: 60vh;
+  }
+  .plenty-of-work-sec::before {
+    height: calc(100vh - 327px);
+  }
+  .efficiency-banner-sec::after {
+    height: calc(100vh + 519px);
+  }
+  .job-compnay-name {
+    margin-bottom: 9px;
+    margin-top: 1px;
+  }
+  .slider-space-sec .slider-txt {
+    height: 290px;
+    padding: 35px;
+  }
+  .megawatt-sec {
+    flex-direction: column;
+    row-gap: 30px;
+    margin-bottom: 30px;
+  }
+  .mg-inner p {
+    margin-bottom: 0px;
+    column-gap: 20px;
+  }
+  .job-info li a {
+    font-size: 12px;
+  }
+  .primary-btn a {
+    padding: 10px 22px 12px;
+  }
+  .custom-popup {
+    padding: 60px 37px !important;
+  }
+
+  .pi-list,
+  .profile-card-deatils .green-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 979px) {
+
+  .destop-header .nv-sec .menu-item a{
+    font-size: 20px;
+  }
+    .menu-item {
+    padding: 0px 10px;
+  }
+  .navbar-list .menu-item a {
+    font-size: 18px;
+  }
+  .icon-head h2, .icon-head h2 a {
+    font-size: 28px;
+    line-height: 31px;
+  }
+  .custom-container {
+    padding: 0px 25px;
+  }
+  .joblist-sec ul {
+    margin-left: 0px !important;
+  }
+  .search-filter {
+    flex-direction: column;
+  }
+  .search-filter li:last-child {
+    justify-content: start;
+  }
+  .search-container {
+    width: calc(100vw - 110px);
+  }
+  .search-filter .primary-btn {
+    margin-right: 15px;
+  }
+  .heading2,
+  .popup-title {
+    line-height: 46px;
+    font-size: 40px;
+  }
+  .heading3 {
+    font-size: 80px;
+  }
+  .counter-paragraph {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .custom-text h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .navbar-list {
+    display: none;
+  }
+  .maine-path-energy::before {
+    content: unset !important;
+  }
+  .attention-clean-sec::before {
+    content: unset !important;
+  }
+  .home-banner {
+    height: calc(100vh - 3.5rem);
+  }
+  .admin-bar .home-banner {
+    height: calc(100vh - 5rem);
+  }
+  .job-listing-company-logo {
+    display: none;
+  }
+  .job-details {
+    flex-direction: column;
+  }
+  .job-info {
+    flex-wrap: wrap;
+  }
+  .job-icon {
+    align-items: start;
+    margin-top: 15px;
+    flex-direction: row-reverse;
+  }
+  .job-icon p{
+    margin-top: 0;
+  }
+  .job-icon br {
+    display: none;
+  }
+  .job-listing-list {
+    position: relative;
+    padding: 22px 24px;
+    margin-bottom: 25px;
+  }
+  .job-listing-list:last-child {
+    margin-bottom: 0px;
+  }
+  .jobicon-share {
+    position: absolute;
+    top: 29px;
+    right: 17px;
+  }
+	.saveJobBtn{
+		position:unset;
+	}
+  .job-compnay-name {
+    padding-top: 0px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #bfbfbf;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .job-page-txt p{
+    margin-bottom: 15px;
+  }
+  .job-title {
+    margin-bottom: 10px;
+  }
+  .pc-list li:first-child {
+    display: inline-block;
+  }
+  .pci {
+    width: 178px;
+  }
+
+  .green-btn,
+  .secondray-btn,
+  .blu-trans-btn {
+    font-size: 18px;
+  }
+
+  .space-sec {
+    padding: 75px 0px 0px;
+  }
+
+  .toggle-menu {
+    display: inline-block;
+  }
+  .main-navbar-submienu {
+    padding-left: 0px;
+  }
+  .job-posting-page {
+    padding: 0px 0px 70px;
+  }
+  .job-list-tag {
+    display: none;
+  }
+
+  .job-title-inner p:nth-last-child(-n + 2) {
+    display: none;
+  }
+
+  .job-posting-page .job-posting-article .profile-information .bd-title4,
+  .job-posting-page .job-posting-article .profile-information .pp-dg-1 p {
+    display: none;
+  }
+  .similer-job-sec::before {
+    height: 45vh;
+    margin-top: -130px;
+  }
+  .bd-title4 {
+    line-height: 34px !important;
+    font-size: 22px;
+  }
+  .enegry-space-left {
+    padding-left: 0px;
+  }
+
+  .b-p-discription {
+    display: none;
+  }
+  .pi-group-btn1 {
+    margin-top: 25px !important;
+  }
+  .bpsec-main::after {
+    left: -25px;
+    height: 325px;
+  }
+  .bpsec-main::before {
+    margin-bottom: -268px;
+    height: 582px;
+  }
+
+  .resultnumber-sec {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+}
+.profile-cardSec h6 a:hover{
+color:#233F88 !important;
+}
+.reset_searchSec {
+    gap: 10px;
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+}
+.reset_searchSec button{
+  width: 100%;
+  padding:10px !important;
+}
+.reset_searchSec button:focus{
+    outline:none;
+  box-shadow: none;
+}
+.single-training h4.bd-title4 {
+    margin-top: 0;
+    line-height: 47px;
+}
+.profile-information1.pi:last-child {
+    border-bottom: 0;
+}
+
+@media (max-width: 768px) {
+.bd-title3 {
+    font-size: 28px;
+  }
+.filter-content {
+  display: none;
+}
+
+.filter-content.show {
+  display: block;
+}
+  .profile-cardSec h6 {
+    font-size: 16px !important;
+  }
+  .destop-header .nv-sec .menu-item a{
+    font-size: 17px;
+  }
+  .grid-modernization-sec-txt br {
+    display: none !important;
+  }
+  .counter-sec-mobile .x-bg-layer-upper-image {
+    background-position: bottom !important;
+  }
+  .renewable-mobile-txt br {
+    display: none;
+  }
+  .destop-header {
+    display: none;
+  }
+  .mobile-header {
+    display: flex;
+    column-gap: 28px;
+    align-items: start;
+  }
+  .career-sec-row-mobile {
+    z-index: 0 !important;
+  }
+  .heading3 {
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .counter-paragraph {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .custom-text h3 {
+    margin-bottom: 5px;
+  }
+  .custom-text {
+    width: 280px !important;
+  }
+
+  .search-filter li:nth-child(3) {
+    order: 2;
+  }
+  .search-filter li:nth-child(2) {
+    order: 3;
+  }
+  .search-filter {
+    padding: 40px 35px;
+  }
+  .txt-filter {
+    display: block;
+    text-align: center;
+  }
+  .txt-filter p {
+    color: #fff;
+    text-align: center;
+    font-family: ZeitungMicroPro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .login-txt {
+    border-bottom: 0px;
+    padding-bottom: 0;
+  }
+  .login-group-mobile .green-line {
+    font-size: inherit;
+    line-height: inherit;
+    display: inline-block;
+    padding: 20px 18px 20px 9px;
+  }
+  .search-filter .primary-btn {
+    padding: 8px 50px 12px;
+    line-height: 20px;
+    width: 100%;
+  }
+  .primary-btn a {
+    font-size: 19px;
+    padding: 10px 34px 13px;
+    line-height: 25px;
+  }
+  .search-filter li:last-child {
+    margin-top: 20px;
+    order: 4;
+  }
+  .sign-txt {
+    padding-top: 0px;
+  }
+  .joblist-sec li {
+    align-items: start;
+        flex-wrap: wrap;
+  }
+  .joblist-sec li span {
+    margin-top: 0px;
+  }
+  .blue-section::before {
+    height: 500px;
+    margin-top: -165px;
+  }
+  .login-group-destop {
+    display: none;
+  }
+  .login-group-mobile {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .search-filter li:last-child br {
+    display: none;
+  }
+  .slider-txt h4 {
+    font-size: 25px !important;
+    line-height: 27px !important;
+  }
+  .career-sec::before {
+    width: 100% !important;
+    background-image: url(/wp-content/uploads/2024/01/spring-sec-w1.svg) !important;
+    height: 550px;
+    margin-top: -377px;
+  }
+  .slider-space-sec .slider-txt {
+    height: 315px !important;
+    padding: 30px;
+  }
+  .career-sec::after {
+    top: 0;
+    bottom: unset;
+    margin-bottom: unset;
+    margin-top: -90px;
+    height: 591px;
+  }
+  .counter-sec::after {
+    background-image: url(/wp-content/uploads/2024/01/mob_white_cut_top.png);
+  }
+  .upevent-list {
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 0px;
+  }
+  .upevent-list li {
+    column-gap: 5px;
+    row-gap: 0px;
+  }
+  .upevent-list li .green-line {
+    line-height: 27px;
+    font-size: 14px;
+    padding: 0px 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .job-info li span {
+    font-size: 14px;
+  }
+  .upcoming-sec-div {
+    margin-top: -540px !important;
+  }
+  .main-clean-blue-section::before {
+    width: 571px !important;
+    height: 313px;
+    margin-top: -167px;
+  }
+  .main-clean-blue-section::after {
+    width: 285px !important;
+    height: 410px;
+    z-index: -1;
+  }
+  .mobile-contact-btn {
+    display: block;
+    margin-top: 20px;
+  }
+  .destop-contact-btn {
+    display: none;
+  }
+  .heading1 {
+    font-size: 48px;
+    line-height: 40px;
+    margin-top: 0px;
+  }
+  .cleanrenergy-sec .x-bg-layer-upper-image {
+    background-image: url(/wp-content/uploads/2024/01/clean-page-mobile-banner.jpg) !important;
+  }
+  .paragraph1 {
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .how-we-are-sec::before {
+    background-image: url(/wp-content/uploads/2024/01/clean-atten-top-mobile-1.png);
+    position: absolute;
+    content: "" !important;
+    width: 100% !important;
+    height: 500px;
+    left: 0px;
+    top: -26%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    z-index: 3;
+    background-size: contain;
+    margin-top: 0px;
+  }
+  .attention-clean-sec::before {
+    background-image: url(/wp-content/uploads/2024/01/clean-atten-top-right-mobile.png);
+    position: absolute;
+    content: "" !important;
+    width: 25% !important;
+    height: 505px;
+    right: 0px;
+	  left:unset;
+    top: -37px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    z-index: 3;
+    background-size: contain;
+    margin-top: 0px;
+  }
+  .clean-energy-careers::before {
+    height: 600px;
+  }
+  .heading2,
+  .popup-title {
+    line-height: 37px;
+    font-size: 35px;
+  }
+  .attention-clean-energy-row {
+    z-index: 2 !important;
+  }
+  .clean-energy-careers .blue-sec-sec-row-mobile {
+    z-index: 2 !important;
+  }
+  .clean-energy-careers::after {
+    background-image: url(/wp-content/themes/pro-child/img/result-main-sec-mobile.png);
+    position: absolute;
+    content: "" !important;
+    width: 100% !important;
+    height: 100vh;
+    right: 0px;
+    bottom: -30%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-size: contain;
+  }
+  .result-main-sec::after {
+    height: calc(100vh - 454px);
+    bottom: -73px;
+  }
+  .cleanenergy-main-company-logo ul li {
+    flex: 1 1 33%;
+  }
+  .circle-div {
+    width: 104px;
+  }
+  .building-sec .joblist-sec li {
+    column-gap: 30px;
+  }
+  .building-sec .icon-head h4 {
+    margin-top: 0px;
+    font-size: 22px;
+  }
+  .plenty-of-work-sec::before {
+    background-image: url(/wp-content/themes/pro-child/img/plenty-of-work-mobile-sec.png) !important;
+    height: 60vh;
+    top: 0;
+    margin-top: -151px;
+  }
+  .all-about-buildings-sec::before {
+    background-image: url(/wp-content/themes/pro-child/img/all-about-build-mobile-spring.png);
+    position: absolute;
+    content: "" !important;
+    width: 100% !important;
+    height: 400px;
+    right: 0px;
+    top: -13%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-size: contain;
+    margin-bottom: 0;
+  }
+  .efficiency-banner-sec::after {
+    background-image: url(/wp-content/themes/pro-child/img/plenty-mobile.png);
+    height: 61vh;
+    top: 0;
+    margin-top: -101px;
+  }
+  .future-sec .x-bg-layer-upper-image {
+    background-image: url(/wp-content/uploads/2024/01/energy-efficiency-banner-mobile.jpg) !important;
+  }
+  .cleane-generation-banner .x-bg-layer-upper-image {
+    background-image: url(/wp-content/themes/pro-child/img/cleangenration-mobile.jpg) !important;
+  }
+  .ee-number-sec::before {
+    height: 250px;
+    top: -40px;
+  }
+  .job-info li:not(:last-child) a {
+    padding-right: 20px;
+  }
+  .job-info li:not(:first-child) a {
+    padding-left: 0px;
+  }
+  .job-info li a {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .job-info li:not(:last-child) a::after {
+    right: 7px;
+    top: 0;
+  }
+  .form-select,
+  .search-filter .form-control {
+    font-size: 16px;
+  }
+  .mobile-header .menu-item {
+    padding: 0px;
+  }
+
+  .nv-sec .menu-item:not(:last-child){
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+
+
+  .nv-sec .menu-item .sub-menu a {
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .custom-text {
+    padding-top: 40px !important;
+  }
+  .cleanenergy-main-company-logo ul {
+    gap: 40px;
+  }
+  .result-heading .heading2 {
+    line-height: 21px;
+  }
+  .result-txt-div {
+    width: 289px !important;
+    margin: 0px auto !important;
+  }
+  .maine-is-ready::after {
+    height: 49vh;
+    margin-bottom: unset;
+    margin-top: -150px;
+    top: 0;
+  }
+  .ee-workforce-sec::after {
+    height: 471px;
+  }
+  .ee-second-sec::before {
+    height: 172px;
+  }
+  .footer-div {
+    flex: 1 !important;
+  }
+  .footer-colum2 {
+    column-gap: 30px !important;
+  }
+  .heading5 {
+    font-size: 25px;
+  }
+  .footer-item, .footer-item .x-anchor-text-primary {
+    font-size: 22px;
+  }
+  .at-sec .heading1 {
+    z-index: 2;
+    position: relative;
+    font-size: 44px;
+    line-height: 39px;
+  }
+  .at-sec .paragraph1 {
+    z-index: 2;
+    position: relative;
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .at-bg::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+  }
+  .cleanenergy-second-sec-row .cleanenergy-second-div-txt {
+    max-width: 100% !important;
+  }
+  .upcoming-sec .event-list p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  body .subscribe-sec .gform_wrapper.gravity-theme .gform_fields {
+    grid-row-gap: 30px;
+  }
+  .newsevent-sec::after {
+    height: 56vh;
+    margin-bottom: -100px;
+  }
+  .mht_event {
+    margin-top: 0px;
+  }
+  .upcoming-sec .job-title {
+    margin-bottom: 10px;
+  }
+  .news-event-page::after {
+    height: 80vh;
+  }
+  body .subscribe-sec .gform_wrapper .gfield_label {
+    font-size: 21px;
+    line-height: 20px;
+    padding-bottom: 8px;
+  }
+  body .subscribe-sec .gform-grid-col .gform-field-label {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    padding-bottom: 16px;
+  }
+  body .subscribe-sec .gform_wrapper input[type="submit"] {
+    padding: 12px 35px 14px;
+    line-height: 20px !important;
+    min-height: unset !important;
+  }
+  .newsevent-sec .slick-list {
+    padding: 0 20% 0 0 !important;
+  }
+  .newsevent-sec .card_content {
+    padding: 25px;
+  }
+  .title4 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+  .generation-txt br {
+    display: none;
+  }
+  body .sgpb-main-html-content-wrapper .event-popup input[type="submit"] {
+    line-height: 20px !important;
+    min-height: 0px !important;
+    padding: 15px 36px 16px !important;
+    font-size: 22px !important;
+  }
+
+  .custom-popup-login .um-form .um-col-alt-b,
+  .custom-popup-login .um-form .um-col-alt {
+    display: block;
+  }
+  .sharelink {
+    padding: 9px 12px 12px 15px;
+     font-size: 18px;
+  }
+  #sgpb-popup-dialog-main-div {
+    padding: 25px 35px !important;
+  }
+  .account {
+    font-size: 19px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .pci {
+    width: 140px;
+  }
+  .space-sec::after {
+    height: 36vh;
+    margin-bottom: -113px;
+  }
+  .pi-job-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .location-icon {
+    width: 16px;
+    margin-right: 17px;
+  }
+
+  .main-navbar-icon img {
+    width: 37px;
+  }
+
+  .logohe {
+    width: 206px;
+  }
+
+  .custom-popup-login .sgpb-main-html-content-wrapper p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .custom-popup-login .gfield .gform-field-label{
+    padding-bottom: 0px !important;
+  }
+
+  .sec-form .gform_footer .gform_button {
+    padding: 8px 15px 8px;
+    font-size: 14px;
+  }
+
+   .custom-popup-login .gform_button{
+       align-self: center !important;
+   }
+
+  .energy-business-profile-creation ul li:not(:first-child) {
+    flex: 0 1 100%;
+  }
+
+  .energy-business-profile-creation .form-submit .submit {
+    font-size: 18px;
+    padding: 10px 25px 12px;
+  }
+
+  .energy-business-profile-creation ul li.wppb-upload a {
+    height: 43px;
+    font-size: 18px;
+  }
+
+  .energy-business-profile-creation ul li.wppb-upload a:after {
+    width: 20px;
+    height: 20px;
+  }
+  .pagination .page-btn.active1{
+        width: 30px;
+    height: 30px;
+  }
+  .pagination a{
+    font-size: 16px;
+  }
+
+  .custom-popup-login .gform_footer{
+    flex-direction: column;
+  }
+
+  .forget-password{
+    padding-top: 15px;
+  }
+
+  .custom-popup-login .register-popup .description_above .ginput_container_password span.ginput_right label{
+    padding-top: 0px;
+    padding-bottom: 10px !important;
+  }
+
+  .custom-popup-login .register-popup  .social-btn{
+    padding-top: 30px;
+  }
+
+  .custom-popup-login .register-popup .custom-popup-login .gform_footer{
+    margin-top: 20px !important;
+  }
+  .sec-form #field_2_37 .gchoice.gchoice_2_37_1{
+    margin-top: 0px;
+  }
+  .sec-form .gfield .gform-field-label, .sec-form .gfield .gform-field-label {
+    font-size: 16px !important;
+    line-height: 20px;
+}
+body .sec-form .ginput_container_checkbox input[type='checkbox']{
+  top: -4px;
+}
+
+.mobile-header .nv-sec .user_dropdown .menu-item .sub-menu a{
+  padding-top: 0px;
+}
+
+.mobile-header .nv-sec .user_dropdown .menu-item{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.user-logout .mobile-header .nv-sec:first-child .user_dropdown > li:first-child > a {
+    color: #fff;
+    font-size: 15px;
+    line-height: 2.8;
+}
+	body:has(.open) {    height: calc(100vh - 45px);}
+.mobile-header .nv-sec:first-child .user_dropdown > li:first-child > a{
+  color: #70A6FF;
+  font-family: "ZeitungMicroProBold";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 140px;
+  white-space: nowrap;
+  display: inline-block;
+}
+.learn-btn{
+  padding: 6px 24px 7px;
+      line-height: 22px;
+          font-size: 14px;
+}
+
+/* .pagination a.active::after{
+      top: -6px;
+    left: -13px;
+} */
+
+.pagination{
+      column-gap: 20px;
+}
+.energy-animation li span{
+  width: 100px;
+  height: 100px;
+}
+
+.energy-animation span img{
+  width: 50px !important;
+}
+
+.employer-icon li span img{
+  width: 40px!important;
+}
+.icon-head {
+    margin-left: 35px;
+    flex: 1 1 50%;
+}
+.joblist-sec span img{
+      width: 50px;
+}
+.primary-btn{
+      padding: 7px 24px 10px;
+          font-size: 19px;
+}
+.more-events {
+    margin-top: 0;
+    text-align: left;
+}
+  .upevent-list li h5 {
+      font-size: 16px;
+          line-height: 24px;
+  }
+
+}
+
+@media (max-width: 580px) {
+  .clean-energy-careers::after {
+    bottom: -41%;
+    height: 90vh;
+  }
+  .how-we-are-sec::before {
+    height: 448px;
+    top: -20%;
+  }
+  .slider-txt p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .nv-sec .menu-item a {
+    font-size: 16px;
+  }
+  .job-info li:nth-child(2) a::after {
+    content: unset;
+  }
+}
+
+@media (max-width: 479px) {
+  .upcoming-sec-div-img img {
+    width: 41% !important;
+  }
+  .search-filter .primary-btn {
+    padding: 12px 0px !important;
+  }
+  .search-filter {
+    padding: 32px 27px;
+  }
+  .slider-txt h4 {
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+  .career-sec::before {
+    width: 100% !important;
+    height: 274px;
+    margin-top: -246px;
+  }
+  .career-sec::after {
+    margin-top: -34px;
+    height: 500px;
+  }
+  .paragraph,
+  .icon-head p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .maine’s-clean-energy-slder-sec .slider-txt {
+    height: 325px !important;
+    padding: 30px;
+  }
+  .job-compnay-name {
+    font-size: 16px;
+  }
+  .nv-sec .menu-item a {
+    font-size: 15px;
+  }
+  .primary-btn a {
+    padding: 8px 31px 11px 30px;
+  }
+  .mobile-contact-btn {
+    text-align: left;
+  }
+  .mobile-contact-btn .primary-btn {
+    font-size: 14px;
+    padding: 8px 15px 9px 17px;
+  }
+  .job-info li a {
+    font-size: 11px;
+    /*line-height: 14px;*/
+  }
+  .job-icon {
+    margin-top: 10px;
+  }
+  .post-title {
+    font-size: 12px;
+  }
+  .all-about-buildings-sec::before {
+    height: 334px;
+    top: -22%;
+  }
+  .job-details-inner .job-title {
+    padding-right: 50px;
+  }
+  .admin-bar .search-container {
+    margin-top: -400px !important;
+  }
+  .admin-bar .home-banner {
+    height: calc(100vh - 6.5rem);
+  }
+  .news-event-banner h1 {
+    max-width: 260px;
+  }
+  .custom-popup .popup-title {
+    line-height: 35px;
+    font-size: 31px;
+  }
+  .sharelink {
+    font-size: 17px;
+  }
+  .account {
+    font-size: 14px;
+  }
+  .space-sec::before {
+    height: calc(100vh - 353px);
+  }
+}
+
+@media (max-width: 400px) {
+  .slider-space-sec .slider-txt {
+    height: 350px !important;
+    padding: 20px !important;
+  }
+  .login-group-mobile .green-line {
+    padding: 0px 18px 0px 6px;
+  }
+  .title4 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 14px;
+  }
+  body
+    .sgpb-main-html-content-wrapper
+    .event-popup
+    .gform_wrapper.gravity-theme
+    .ginput_container_time {
+    max-width: 65px;
+    min-width: 66px;
+  }
+  .green-btn,
+  .secondray-btn,
+  .blu-trans-btn {
+    font-size: 15px;
+  }
+  .popup-title {
+    line-height: 29px;
+    font-size: 26px;
+  }
+	
+.heading1 {
+    font-size: 33px;
+	line-height: 35px;
+}
+	.paragraph1 {
+    font-size: 22px;
+    line-height: 25px;
+}
+    .search-filter {
+    padding: 22px 13px;
+  }
+  .nv-sec .menu-item .sub-menu a{
+    font-size: 12px;
+  }
+}
+/* logo for single training post  */
+.logo-org {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    padding: 25px;
+    background: #233f88;
+    height: 300px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.blu-trans-btn:hover {
+    background-color: #233f88;
+    color: #fff;
+}
+
+
+#gform_wrapper_4 .gform_wrapper.gravity-theme .ginput_container_time{
+      max-width: 117px !important;
+    min-width: 131px !important;
+}
+
+#gform_4 .ginput_container_checkbox .gchoice_4_19_1 input[type=checkbox] {
+    width: 25px !important;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.create-event-form .gform_wrapper.gravity-theme .ginput_container_time{
+    min-width: 90px !important;
+}
+
+@media (max-width: 1700px) {
+  #gform_wrapper_4 .gform-field-label{
+       font-size: 20px !important;
+ }
+
+}
+
+ul.pi-group-btn a {
+  min-width: 245px;
+}
+.extra_field_hidden_input{
+display:none !important;
+}
+
+
+.privacy-section {
+	padding-bottom: 24px;
+}
+
+.privacy-section .heading2, .privacy-section .heading3, .privacy-section .heading4 {
+	font-family: inherit !important;
+    font-style: normal;
+	font-weight: 500;
+	
+}
+
+.privacy-section .heading2 {
+	font-size: 64px;
+}
+
+.privacy-section .heading3 {
+	font-size: 48px;
+}
+
+.privacy-section .heading4 {
+	font-size: 36px;
+}
+
+.privacy-section ul {
+	padding: 0 0 0 24px
+}
+
+.privacy-section li {
+	    list-style-type: initial;
+}
+
+.privacy-section a {
+	color: #79b44b;
+}
+
+@media (max-width: 992px) {
+	.privacy-section .heading2 {
+		font-size: 48px;
+	}
+
+	.privacy-section .heading3 {
+		font-size: 36px;
+	}
+
+	.privacy-section .heading4 {
+		font-size: 24px;
+	}
+
+}
+
+.opt-in-support label {
+	display: none;
+}
+
+.job-description-divider {
+	padding-bottom: 24px;
+}
